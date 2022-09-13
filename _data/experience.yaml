@@ -1,0 +1,25 @@
+experiences:
+
+- place: "Zhejiang University"
+  time: "Sept 2021 - present"
+  title: "Ph.D. Student"
+  subtitle: "Computer Science and Technology"
+  category: "school"
+
+- place: "Westlake University"
+  time: "Sept 2021 - present"
+  title: "Ph.D. Student"
+  subtitle: "Computer Science and Technology"
+  category: "school"
+
+- place: "University of Alberta, Canada."
+  time: "July 2019 - Oct 2019"
+  title: "Research Assistant"
+  subtitle: "Artificial General Intelligence Lab <br/> Prof. Vadim Bulitko (Professor, Computer Science) <br/> Prof. Erin Bayne (Professor, Biology) <br/>"
+  category: "school"
+
+- place: "Northwest A&F University"
+  time: "Sept 2017 - June 2021"
+  title: "B.Sc. Student"
+  subtitle: "Computer Science and Technology"
+  category: "school"
