@@ -2,30 +2,41 @@ papers:
 
   - title: "Co-learning: Learning from Noisy Labels with Self-supervision"
     authors: "<b>Cheng Tan</b>, Jun Xia, Lirong Wu, Stan Z. Li"
-    venue: "ACM MM'21: ACM Multimedia. 2021 (<b>Oral</b>)."
+    venue: "ACM MM'21: ACM Multimedia, 2021 (<b>Oral</b>)."
     paper_pdf: "/assets/publications/mm21_colearning/paper.pdf"
     code: "https://github.com/chengtan9907/Co-learning-Learning-from-noisy-labels-with-self-supervision"
     selected: y
 
   - title: "Hyperspherical Consistency Regularization"
     authors: "<b>Cheng Tan</b>, Zhangyang Gao, Lirong Wu, Siyuan Li, Stan Z. Li"
-    venue: "CVPR'22: IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022."
+    venue: "CVPR'22: IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022."
     paper_pdf: "/assets/publications/cvpr22_hcr/paper.pdf"
     code: "https://github.com/chengtan9907/Hyperspherical-Consistency-Regularization"
     selected: y
 
   - title: "SimVP: Simpler yet Better Video Prediction"
     authors: "Zhangyang Gao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Lirong Wu, Stan Z. Li"
-    venue: "CVPR'22: IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022."
+    venue: "CVPR'22: IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022."
     paper_pdf: "/assets/publications/cvpr22_simvp/paper.pdf"
     code: "https://github.com/gaozhangyang/SimVP-Simpler-yet-Better-Video-Prediction"
+    selected: y
+  
+  - title: "PiFold: Toward Effective and Efficient Protein Inverse Folding"
+    authors: "Zhangyang Gao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Stan Z. Li"
+    venue: "ICLR'23: International Conference on Learning Representations, 2023 (<b>Spotlight</b>)."
+    paper_pdf: "/assets/publications/iclr2023_pifold/paper.pdf"
+    code: "https://github.com/A4Bio/PiFold"
     selected: y
 
   - title: "Target-aware Molecular Graph Generation"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Stan Z. Li"
     venue: "ICML-W'22: International Conference on Machine Learning @ AI for Science Workshop, 2022."
     paper_pdf: "/assets/publications/icmlw22_siamflow/paper.pdf"
-    # code: "https://github.com/facebookresearch/social-catalysts"
+    selected: y
+
+  - title: "Mole-BERT: Rethinking Pre-training Graph Neural Networks for Molecules"
+    authors: "Jun Xia, Chengshuai Zhao, Bozhen Hu, Zhangyang Gao, <b>Cheng Tan</b>, Yue Liu, Siyuan Li, Stan Z. Li"
+    venue: "ICLR'23: International Conference on Learning Representations, 2023."
     selected: y
 
   - title: "Self-supervised Learning on Graphs: Contrastive, Generative, or Predictive"
@@ -33,6 +44,12 @@ papers:
     venue: "TKDE'21: IEEE Transactions on Knowledge and Data Engineering, 2021."
     paper_pdf: "/assets/publications/tkde21_ssl/paper.pdf"
     code: "https://github.com/LirongWu/awesome-graph-self-supervised-learning"
+    selected: y
+
+  - title: "Beyond Homophily and Homogeneity Assumption: Relation-based Frequency Adaptive Graph Neural Networks"
+    authors: "Lirong Wu, Haitao Lin, Bozhen Hu, Zhangyang Gao, Cheng Tan, Zicheng Liu, Stan Z. Li"
+    venue: "TNNLS'22: IEEE Transactions on Neural Networks and Learning Systems, 2022."
+    code: "https://github.com/LirongWu/RFA-GNN"
     selected: y
 
   - title: "OT Cleaner: Label Correction as Optimal Transport"
