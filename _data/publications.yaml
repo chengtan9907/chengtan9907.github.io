@@ -57,20 +57,25 @@ papers:
     venue: "ICASSP'22: The International Conference on Acoustics, Speech, & Signal Processing, 2022."
     paper_pdf: "/assets/publications/icassp22_otcleaner/paper.pdf"
     code: "https://github.com/junxia97/OT-Cleaner"
-    selected: n
+    selected: y
 
   - title: "GraphMixup: Improving Class-Imbalanced Node Classification by Reinforcement Mixup and Self-supervised Context Prediction"
     authors: "Lirong Wu, Jun Xia, Zhangyang Gao, Haitao Lin, <b>Cheng Tan</b>, Stan Z. Li"
     venue: "ECML-PKDD'22: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases, 2022."
     paper_pdf: "/assets/publications/ecml22_graphmixup/paper.pdf"
     code: "https://github.com/LirongWu/GraphMixup"
-    selected: n
+    selected: y
 
   - title: "Multi-level disentanglement graph neural network"
     authors: "Lirong Wu, Haitao Lin, Jun Xia, <b>Cheng Tan</b>, Stan Z. Li"
     venue: "NCA'22: Neural Computing and Applications, 2022."
     paper_pdf: "/assets/publications/nca22_mdgnn/paper.pdf"
     code: "https://github.com/LirongWu/MD-GNN"
+    selected: y
+
+  - title: "Generative Tertiary Structure-based RNA Design"
+    authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Stan Z. Li"
+    venue: "preprint"
     selected: n
 
   - title: "AlphaDesign: A graph protein design method and benchmark on AlphaFoldDB"
@@ -90,6 +95,26 @@ papers:
 
   - title: "SemiRetro: Semi-template framework boosts deep retrosynthesis prediction"
     authors: "Zhangyang Gao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Lirong Wu, Stan Z. Li"
+    venue: "preprint"
+    selected: n
+
+  - title: "Decoupled Mixup for Data-efficient Learning"
+    authors: "Zicheng Liu, Siyuan Li, Ge Wang, <b>Cheng Tan</b>, Lirong Wu, Stan Z. Li"
+    venue: "preprint"
+    selected: n
+
+  - title: "Towards effective and generalizable fine-tuning for pre-trained molecular graph models"
+    authors: "Jun Xia, Jiangbin Zheng, <b>Cheng Tan</b>, Ge Wang, Stan Z. Li"
+    venue: "preprint"
+    selected: n
+
+  - title: "Efficient Multi-order Gated Aggregation Network"
+    authors: "Siyuan Li, Zedong Wang, Zicheng Liu, <b>Cheng Tan</b>, Haitao Lin, Di Wu, Zhiyuan Chen, Jiangbin Zheng, Stan Z. Li"
+    venue: "preprint"
+    selected: n
+
+  - title: "CoSP: Co-supervised pretraining of pocket and ligand"
+    authors: "Zhangyang Gao, <b>Cheng Tan</b>, Lirong Wu, Stan Z. Li"
     venue: "preprint"
     selected: n
 
