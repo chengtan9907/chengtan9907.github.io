@@ -8,7 +8,7 @@ papers:
     selected: y
 
   - title: "Hyperspherical Consistency Regularization"
-    authors: "<b>Cheng Tan</b>, Zhangyang Gao, Lirong Wu, Siyuan Li, Stan Z. Li"
+    authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Lirong Wu, Siyuan Li, Stan Z. Li"
     venue: "CVPR'22: IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022."
     paper_pdf: "/assets/publications/cvpr22_hcr.pdf"
     code: "https://github.com/chengtan9907/Hyperspherical-Consistency-Regularization"
@@ -28,18 +28,26 @@ papers:
     code: "https://github.com/A4Bio/PiFold"
     selected: y
 
-  - title: "Target-aware Molecular Graph Generation"
-    authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Stan Z. Li"
-    venue: "ICML-W'22: International Conference on Machine Learning @ AI for Science Workshop, 2022."
-    paper_pdf: "/assets/publications/icmlw22_siamflow.pdf"
-    selected: y
-
   - title: "Mole-BERT: Rethinking Pre-training Graph Neural Networks for Molecules"
     authors: "Jun Xia, Chengshuai Zhao, Bozhen Hu, Zhangyang Gao, <b>Cheng Tan</b>, Yue Liu, Siyuan Li, Stan Z. Li"
     venue: "ICLR'23: International Conference on Learning Representations, 2023."
     paper_pdf: "/assets/publications/iclr23_molbert.pdf"
     code: "https://github.com/junxia97/Mole-BERT"
+    selected: n
+
+  - title: "Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning"
+    authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Lirong Wu, Yongjie Xu, Jun Xia, Siyuan Li, Stan Z. Li"
+    venue: "CVPR'23: IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2023."
+    # paper_pdf: "/assets/publications/iclr23_pifold.pdf"
+    code: "https://github.com/chengtan9907/SimVPv2"
     selected: y
+
+  - title: "CVT-SLR: Contrastive Visual-Textual Transformation for Sign Language Recognition with Variational Alignment"
+    authors: "Jiangbin Zheng, Yile Wang, <b>Cheng Tan</b>, Siyuan Li, Ge Wang, Jun Xia, Yidong Chen, Stan Z. Li"
+    venue: "CVPR'23: IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2023."
+    # paper_pdf: "/assets/publications/iclr23_pifold.pdf"
+    # code: "https://github.com/chengtan9907/SimVPv2"
+    selected: n
 
   - title: "Self-supervised Learning on Graphs: Contrastive, Generative, or Predictive"
     authors: "Lirong Wu, Haitao Lin, <b>Cheng Tan</b>, Zhangyang Gao, Stan Z. Li"
@@ -48,11 +56,17 @@ papers:
     code: "https://github.com/LirongWu/awesome-graph-self-supervised-learning"
     selected: y
 
+  - title: "Target-aware Molecular Graph Generation"
+    authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Stan Z. Li"
+    venue: "ICML-W'22: International Conference on Machine Learning @ AI for Science Workshop, 2022."
+    paper_pdf: "/assets/publications/icmlw22_siamflow.pdf"
+    selected: y
+
   - title: "Beyond Homophily and Homogeneity Assumption: Relation-based Frequency Adaptive Graph Neural Networks"
     authors: "Lirong Wu, Haitao Lin, Bozhen Hu, Zhangyang Gao, Cheng Tan, Zicheng Liu, Stan Z. Li"
     venue: "TNNLS'22: IEEE Transactions on Neural Networks and Learning Systems, 2022."
     code: "https://github.com/LirongWu/RFA-GNN"
-    selected: y
+    selected: n
 
   - title: "Generative De Novo Protein Design with Global Context"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Jun Xia, Bozhen Hu, Stan Z. Li"
@@ -65,13 +79,13 @@ papers:
     authors: "Bozhen Hu, Zelin Zang, Jun Xia, Lirong Wu, <b>Cheng Tan</b>, Stan Z. Li"
     venue: "ICASSP'23: The International Conference on Acoustics, Speech, & Signal Processing, 2023."
     paper_pdf: "/assets/publications/icassp23_dmvage.pdf"
-    selected: y
+    selected: n
 
   - title: "WordReg: Mitigating the Gap between Training and Inference with Worst-case Drop Regularization"
     authors: "Jun Xia, Ge Wang, Bozhen Hu, <b>Cheng Tan</b>, Jiangbin Zheng, Yongjie Xu, Stan Z. Li"
     venue: "ICASSP'23: The International Conference on Acoustics, Speech, & Signal Processing, 2023."
     paper_pdf: "/assets/publications/icassp23_wordreg.pdf"
-    selected: y
+    selected: n
 
   - title: "OT Cleaner: Label Correction as Optimal Transport"
     authors: "Jun Xia<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Lirong Wu, Yongjie Xu, Stan Z. Li"
@@ -85,14 +99,14 @@ papers:
     venue: "ECML-PKDD'22: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases, 2022."
     paper_pdf: "/assets/publications/ecml22_graphmixup.pdf"
     code: "https://github.com/LirongWu/GraphMixup"
-    selected: y
+    selected: n
 
   - title: "Multi-level disentanglement graph neural network"
     authors: "Lirong Wu, Haitao Lin, Jun Xia, <b>Cheng Tan</b>, Stan Z. Li"
     venue: "NCA'22: Neural Computing and Applications, 2022."
     paper_pdf: "/assets/publications/nca22_mdgnn.pdf"
     code: "https://github.com/LirongWu/MD-GNN"
-    selected: y
+    selected: n
 
   - title: "Generative Tertiary Structure-based RNA Design"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Stan Z. Li"
