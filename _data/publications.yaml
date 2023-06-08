@@ -1,5 +1,7 @@
 papers:
 
+# A
+
   - title: "Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Lirong Wu, Yongjie Xu, Jun Xia, Siyuan Li, Stan Z. Li"
     venue: "CVPR'23: IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2023."
@@ -12,7 +14,7 @@ papers:
     venue: "CVPR'23: IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2023."
     paper_pdf: "/assets/publications/cvpr23_cvt-slr.pdf"
     code: "https://github.com/binbinjiang/CVT-SLR"
-    selected: n
+    selected: y
 
   - title: "PiFold: Toward Effective and Efficient Protein Inverse Folding"
     authors: "Zhangyang Gao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Stan Z. Li"
@@ -27,6 +29,51 @@ papers:
     paper_pdf: "/assets/publications/iclr23_molbert.pdf"
     code: "https://github.com/junxia97/Mole-BERT"
     selected: n
+
+  - title: "Hyperspherical Consistency Regularization"
+    authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Lirong Wu, Siyuan Li, Stan Z. Li"
+    venue: "CVPR'22: IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022."
+    paper_pdf: "/assets/publications/cvpr22_hcr.pdf"
+    code: "https://github.com/chengtan9907/Hyperspherical-Consistency-Regularization"
+    selected: y
+
+  - title: "SimVP: Simpler yet Better Video Prediction"
+    authors: "Zhangyang Gao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Lirong Wu, Stan Z. Li"
+    venue: "CVPR'22: IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022."
+    paper_pdf: "/assets/publications/cvpr22_simvp.pdf"
+    code: "https://github.com/gaozhangyang/SimVP-Simpler-yet-Better-Video-Prediction"
+    selected: y
+
+  - title: "Co-learning: Learning from Noisy Labels with Self-supervision"
+    authors: "<b>Cheng Tan</b>, Jun Xia, Lirong Wu, Stan Z. Li"
+    venue: "ACM MM'21: ACM Multimedia, 2021 (<b>Oral</b>)."
+    paper_pdf: "/assets/publications/mm21_colearning.pdf"
+    code: "https://github.com/chengtan9907/Co-learning-Learning-from-noisy-labels-with-self-supervision"
+    selected: y
+
+  - title: "Self-supervised Learning on Graphs: Contrastive, Generative, or Predictive"
+    authors: "Lirong Wu, Haitao Lin, <b>Cheng Tan</b>, Zhangyang Gao, Stan Z. Li"
+    venue: "TKDE'21: IEEE Transactions on Knowledge and Data Engineering, 2021."
+    paper_pdf: "/assets/publications/tkde21_ssl.pdf"
+    code: "https://github.com/LirongWu/awesome-graph-self-supervised-learning"
+    selected: y
+
+# B
+
+  - title: "Target-aware molecular graph generation"
+    authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Stan Z. Li"
+    venue: "ECML-PKDD'23: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases, 2023."
+    selected: y
+
+  - title: "Learning to Augment Graph Structure for both Homophily and Heterophily Graphs"
+    authors: "Lirong Wu, <b>Cheng Tan</b>, Zihan Liu, Zhangyang Gao, Haitao Lin, Stan Z. Li"
+    venue: "ECML-PKDD'23: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases, 2023."
+    selected: y
+
+  - title: "CoSP: Co-supervised Pre-training of pocket and ligand"
+    authors: "Zhangyang Gao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Jun Xia, Stan Z. Li"
+    venue: "ECML-PKDD'23: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases, 2023."
+    selected: y
 
   - title: "Generative De Novo Protein Design with Global Context"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Jun Xia, Bozhen Hu, Stan Z. Li"
@@ -52,25 +99,11 @@ papers:
     venue: "Communication Biology, 2023."
     selected: y
 
-  - title: "Hyperspherical Consistency Regularization"
-    authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Lirong Wu, Siyuan Li, Stan Z. Li"
-    venue: "CVPR'22: IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022."
-    paper_pdf: "/assets/publications/cvpr22_hcr.pdf"
-    code: "https://github.com/chengtan9907/Hyperspherical-Consistency-Regularization"
-    selected: y
-
-  - title: "SimVP: Simpler yet Better Video Prediction"
-    authors: "Zhangyang Gao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Lirong Wu, Stan Z. Li"
-    venue: "CVPR'22: IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022."
-    paper_pdf: "/assets/publications/cvpr22_simvp.pdf"
-    code: "https://github.com/gaozhangyang/SimVP-Simpler-yet-Better-Video-Prediction"
-    selected: y
-
   - title: "Target-aware Molecular Graph Generation"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Stan Z. Li"
     venue: "ICML-W'22: International Conference on Machine Learning @ AI for Science Workshop, 2022."
     paper_pdf: "/assets/publications/icmlw22_siamflow.pdf"
-    selected: y
+    selected: n
 
   - title: "OT Cleaner: Label Correction as Optimal Transport"
     authors: "Jun Xia<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Lirong Wu, Yongjie Xu, Stan Z. Li"
@@ -99,21 +132,9 @@ papers:
     code: "https://github.com/LirongWu/MD-GNN"
     selected: n
 
-  - title: "Co-learning: Learning from Noisy Labels with Self-supervision"
-    authors: "<b>Cheng Tan</b>, Jun Xia, Lirong Wu, Stan Z. Li"
-    venue: "ACM MM'21: ACM Multimedia, 2021 (<b>Oral</b>)."
-    paper_pdf: "/assets/publications/mm21_colearning.pdf"
-    code: "https://github.com/chengtan9907/Co-learning-Learning-from-noisy-labels-with-self-supervision"
-    selected: y
-
-  - title: "Self-supervised Learning on Graphs: Contrastive, Generative, or Predictive"
-    authors: "Lirong Wu, Haitao Lin, <b>Cheng Tan</b>, Zhangyang Gao, Stan Z. Li"
-    venue: "TKDE'21: IEEE Transactions on Knowledge and Data Engineering, 2021."
-    paper_pdf: "/assets/publications/tkde21_ssl.pdf"
-    code: "https://github.com/LirongWu/awesome-graph-self-supervised-learning"
-    selected: y
+# Other
 
   - title: "A Survey on Generative Diffusion Model"
     authors: "Hanqun Cao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Guangyong Chen, Pheng-Ann Heng, Stan Z Li"
     venue: "preprint"
-    selected: n
+    selected: y
