@@ -2,6 +2,11 @@ papers:
 
 # A
 
+  - title: "GNN Cleaner: Label Cleaner for Graph Structured Data"
+    authors: "Jun Xia, Haitao Lin, Yongjie Xu, <b>Cheng Tan</b>, Lirong Wu, Yongjie Xu,  Siyuan Li, Stan Z. Li"
+    venue: "TKDE'23: IEEE Transactions on Knowledge and Data Engineering, 2023."
+    selected: y
+
   - title: "Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Lirong Wu, Yongjie Xu, Jun Xia, Siyuan Li, Stan Z. Li"
     venue: "CVPR'23: IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2023."
