@@ -71,7 +71,7 @@ papers:
     selected: y
 
   - title: "Learning to Augment Graph Structure for both Homophily and Heterophily Graphs"
-    authors: "Lirong Wu, <b>Cheng Tan</b>, Zihan Liu, Zhangyang Gao, Haitao Lin, Stan Z. Li"
+    authors: "Lirong Wu<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zihan Liu, Zhangyang Gao, Haitao Lin, Stan Z. Li"
     venue: "ECML-PKDD'23: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases, 2023."
     selected: y
 
