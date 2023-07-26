@@ -2,6 +2,11 @@ papers:
 
 # A
 
+  - title: "CONVERT: Contrastive Graph Clustering with Reliable Augmentation"
+    authors: "Xihong Yang<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Yue Liu, Ke Liang, Siwei Wang, Sihang Zhou, Jun Xia, Stan Z. Li, Xinwang Liu, En Zhu"
+    venue: "ACM MM'23: ACM Multimedia, 2023."
+    selected: y
+
   - title: "GNN Cleaner: Label Cleaner for Graph Structured Data"
     authors: "Jun Xia, Haitao Lin, Yongjie Xu, <b>Cheng Tan</b>, Lirong Wu, Yongjie Xu,  Siyuan Li, Stan Z. Li"
     venue: "TKDE'23: IEEE Transactions on Knowledge and Data Engineering, 2023."
