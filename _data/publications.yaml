@@ -3,7 +3,7 @@ papers:
 # A
 
   - title: "CONVERT: Contrastive Graph Clustering with Reliable Augmentation"
-    authors: "Xihong Yang<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Yue Liu, Ke Liang, Siwei Wang, Sihang Zhou, Jun Xia, Stan Z. Li, Xinwang Liu, En Zhu"
+    authors: "Xihong Yang, <b>Cheng Tan</b>, Yue Liu, Ke Liang, Siwei Wang, Sihang Zhou, Jun Xia, Stan Z. Li, Xinwang Liu, En Zhu"
     venue: "ACM MM'23: ACM Multimedia, 2023."
     selected: y
 
