@@ -5,11 +5,13 @@ papers:
   - title: "CONVERT: Contrastive Graph Clustering with Reliable Augmentation"
     authors: "Xihong Yang, <b>Cheng Tan</b>, Yue Liu, Ke Liang, Siwei Wang, Sihang Zhou, Jun Xia, Stan Z. Li, Xinwang Liu, En Zhu"
     venue: "ACM MM'23: ACM Multimedia, 2023."
+    paper_pdf: "/assets/publications/mm23_convert.pdf"
+    code: "https://github.com/xihongyang1999/CONVERT"
     selected: y
 
   - title: "GNN Cleaner: Label Cleaner for Graph Structured Data"
     authors: "Jun Xia, Haitao Lin, Yongjie Xu, <b>Cheng Tan</b>, Lirong Wu, Yongjie Xu,  Siyuan Li, Stan Z. Li"
-    venue: "TKDE'23: IEEE Transactions on Knowledge and Data Engineering, 2023."
+    venue: "TKDE: IEEE Transactions on Knowledge and Data Engineering, 2023."
     selected: y
 
   - title: "Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning"
@@ -63,7 +65,7 @@ papers:
 
   - title: "Self-supervised Learning on Graphs: Contrastive, Generative, or Predictive"
     authors: "Lirong Wu, Haitao Lin, <b>Cheng Tan</b>, Zhangyang Gao, Stan Z. Li"
-    venue: "TKDE'21: IEEE Transactions on Knowledge and Data Engineering, 2021."
+    venue: "TKDE: IEEE Transactions on Knowledge and Data Engineering, 2021."
     paper_pdf: "/assets/publications/tkde21_ssl.pdf"
     code: "https://github.com/LirongWu/awesome-graph-self-supervised-learning"
     selected: y
@@ -107,6 +109,8 @@ papers:
   - title: "Structure-Preserving and Batch-Correcting Visualization Using Deep Manifold Transformation for Single-cell RNA-Seq Profiles"
     authors: "Yongjie Xu, Zelin Zang, Jun Xia, <b>Cheng Tan</b>, Yulan Geng, Stan Z Li"
     venue: "Communication Biology, 2023."
+    paper_pdf: "/assets/publications/cb23_dmt.pdf"
+    code: "https://github.com/Westlake-AI/DV"
     selected: y
 
   - title: "Target-aware Molecular Graph Generation"
@@ -124,7 +128,7 @@ papers:
 
   - title: "Beyond Homophily and Homogeneity Assumption: Relation-based Frequency Adaptive Graph Neural Networks"
     authors: "Lirong Wu, Haitao Lin, Bozhen Hu, Zhangyang Gao, Cheng Tan, Zicheng Liu, Stan Z. Li"
-    venue: "TNNLS'22: IEEE Transactions on Neural Networks and Learning Systems, 2022."
+    venue: "TNNLS: IEEE Transactions on Neural Networks and Learning Systems, 2022."
     code: "https://github.com/LirongWu/RFA-GNN"
     selected: n
 
@@ -137,7 +141,7 @@ papers:
 
   - title: "Multi-level disentanglement graph neural network"
     authors: "Lirong Wu, Haitao Lin, Jun Xia, <b>Cheng Tan</b>, Stan Z. Li"
-    venue: "NCA'22: Neural Computing and Applications, 2022."
+    venue: "NCA: Neural Computing and Applications, 2022."
     paper_pdf: "/assets/publications/nca22_mdgnn.pdf"
     code: "https://github.com/LirongWu/MD-GNN"
     selected: n
@@ -146,5 +150,7 @@ papers:
 
   - title: "A Survey on Generative Diffusion Model"
     authors: "Hanqun Cao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Guangyong Chen, Pheng-Ann Heng, Stan Z Li"
-    venue: "preprint"
+    venue: "TKDE (<b>Major Revision</b>) : IEEE Transactions on Knowledge and Data Engineering, 2023."
+    paper_pdf: "/assets/publications/tkde23_gdm.pdf"
+    code: "https://github.com/chq1155/A-Survey-on-Generative-Diffusion-Model"
     selected: y
