@@ -2,6 +2,31 @@ papers:
 
 # A
 
+  - title: "OpenSTL: A Comprehensive Benchmark of Spatio-Temporal Predictive Learning"
+    authors: "<b>Cheng Tan</b>, Siyuan Li<sup>‡</sup>, Zhangyang Gao, Wenfei Guan, Zedong Wang, Zicheng Liu, Lirong Wu, Stan Z. Li"
+    venue: "NeurIPS'23: Neural Information Processing Systems - Datasets and Benchmarks Track, 2023."
+    paper_pdf: "/assets/publications/nips23_openstl.pdf"
+    code: "https://github.com/chengtan9907/OpenSTL"
+    selected: y
+
+  - title: "ProteinBench: Benchmarking Protein Design on Diverse Tasks, Models, and Metrics"
+    authors: "Zhangyang Gao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Yijie Zhang, Xingran Chen, Lirong Wu, Stan Z. Li"
+    venue: "NeurIPS'23: Neural Information Processing Systems - Datasets and Benchmarks Track, 2023."
+    paper_pdf: "/assets/publications/nips23_protein_inv_bench.pdf"
+    code: "https://github.com/A4Bio/ProteinInvBench"
+    selected: y
+
+  - title: "Harnessing Hard Mixed Samples with Decoupled Regularizer"
+    authors: "Zicheng Liu<sup>‡</sup>, Siyuan Li<sup>‡</sup>, Ge Wang, Lirong Wu, <b>Cheng Tan</b>, Stan Z. Li"
+    venue: "NeurIPS'23: Neural Information Processing Systems, 2023."
+    code: "https://github.com/Westlake-AI/openmixup"
+    selected: y
+
+  - title: "Why Deep Models Often Cannot Beat Non-deep Counterparts on Molecular Property Prediction?"
+    authors: "Jun Xia, Lecheng Zhang, Xiao Zhu, Yue Liu, Zhangyang Gao, Bozhen Hu, <b>Cheng Tan</b>, Jiangbin Zheng, Siyuan Li, Stan Z. Li"
+    venue: "NeurIPS'23: Neural Information Processing Systems, 2023."
+    selected: y
+
   - title: "CONVERT: Contrastive Graph Clustering with Reliable Augmentation"
     authors: "Xihong Yang, <b>Cheng Tan</b>, Yue Liu, Ke Liang, Siwei Wang, Sihang Zhou, Jun Xia, Stan Z. Li, Xinwang Liu, En Zhu"
     venue: "ACM MM'23: ACM Multimedia, 2023."
