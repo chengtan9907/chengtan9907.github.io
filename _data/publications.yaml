@@ -3,7 +3,7 @@ papers:
 # A
 
   - title: "OpenSTL: A Comprehensive Benchmark of Spatio-Temporal Predictive Learning"
-    authors: "<b>Cheng Tan</b>, Siyuan Li<sup>‡</sup>, Zhangyang Gao, Wenfei Guan, Zedong Wang, Zicheng Liu, Lirong Wu, Stan Z. Li"
+    authors: "<b>Cheng Tan<sup>‡</sup></b>, Siyuan Li<sup>‡</sup>, Zhangyang Gao, Wenfei Guan, Zedong Wang, Zicheng Liu, Lirong Wu, Stan Z. Li"
     venue: "NeurIPS'23: Neural Information Processing Systems - Datasets and Benchmarks Track, 2023."
     paper_pdf: "/assets/publications/nips23_openstl.pdf"
     code: "https://github.com/chengtan9907/OpenSTL"
