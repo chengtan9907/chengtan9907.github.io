@@ -12,6 +12,12 @@ experiences:
   subtitle: "Computer Science and Technology"
   category: "school"
 
+- place: "Tecent AI Lab"
+  time: "Oct 2023 - Oct 2024"
+  title: "Research on Controllable Protein Design"
+  subtitle: "Supervisor: Dr. Fandi Wu"
+  category: "work"
+
 - place: "University of Alberta, Canada."
   time: "July 2019 - Oct 2019"
   title: "Research Assistant"
