@@ -1,6 +1,20 @@
 papers:
 
 # A
+  - title: "Cross-Gate MLP with Protein Complex Invariant Embedding is A One-Shot Antibody Designer"
+    authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Lirong Wu, Jun Xia, Jiangbin Zheng, Xihong Yang, Yue Liu, Bozhen Hu, Stan Z. Li"
+    venue: "AAAI'24: Thirty-Eighth AAAI Conference on Artificial Intelligence, 2024."
+    selected: y
+
+  - title: "PSC-CPI: Multi-Scale Protein Sequence-Structure Contrasting for Efficient and Generalizable Compound-Protein Interaction Prediction"
+    authors: "Lirong Wu, Yufei Huang, <b>Cheng Tan</b>, Zhangyang Gao, Bozhen Hu, Haitao Lin, Zicheng Liu, Stan Z. Li"
+    venue: "AAAI'24: Thirty-Eighth AAAI Conference on Artificial Intelligence, 2024."
+    selected: y
+
+  - title: "Wavelet-Driven Spatiotemporal Predictive Learning: Bridging Frequency and Time Variations"
+    authors: "Xuesong Nie, Yunfeng Yan, Siyuan Li, <b>Cheng Tan</b>, Xi Chen, Haoyuan Jin, Zhihang Zhu, Stan Z. Li, Donglian Qi."
+    venue: "AAAI'24: Thirty-Eighth AAAI Conference on Artificial Intelligence, 2024."
+    selected: y
 
   - title: "OpenSTL: A Comprehensive Benchmark of Spatio-Temporal Predictive Learning"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Siyuan Li<sup>‡</sup>, Zhangyang Gao, Wenfei Guan, Zedong Wang, Zicheng Liu, Lirong Wu, Stan Z. Li"
@@ -97,7 +111,12 @@ papers:
 
 # B
 
-  - title: "Target-aware molecular graph generation"
+  - title: "Deep Manifold Transformation for Protein Representation Learning"
+    authors: "Bozhen Hu, Zelin Zang, <b>Cheng Tan</b>, Stan Z. Li"
+    venue: "ICASSP'24: The International Conference on Acoustics, Speech, & Signal Processing, 2024."
+    selected: y
+
+  - title: "Target-aware Molecular Graph Generation"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Stan Z. Li"
     venue: "ECML-PKDD'23: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases, 2023."
     selected: y
@@ -174,7 +193,7 @@ papers:
 # Other
 
   - title: "A Survey on Generative Diffusion Model"
-    authors: "Hanqun Cao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Guangyong Chen, Pheng-Ann Heng, Stan Z Li"
+    authors: "Hanqun Cao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Guangyong Chen, Pheng-Ann Heng, Stan Z. Li"
     venue: "TKDE (<b>Major Revision</b>) : IEEE Transactions on Knowledge and Data Engineering, 2023."
     paper_pdf: "/assets/publications/tkde23_gdm.pdf"
     code: "https://github.com/chq1155/A-Survey-on-Generative-Diffusion-Model"
