@@ -33,12 +33,14 @@ papers:
   - title: "Harnessing Hard Mixed Samples with Decoupled Regularizer"
     authors: "Zicheng Liu<sup>‡</sup>, Siyuan Li<sup>‡</sup>, Ge Wang, Lirong Wu, <b>Cheng Tan</b>, Stan Z. Li"
     venue: "NeurIPS'23: Neural Information Processing Systems, 2023."
+    paper_pdf: "/assets/publications/nips23_decoupled_mixup.pdf"
     code: "https://github.com/Westlake-AI/openmixup"
     selected: y
 
-  - title: "Why Deep Models Often Cannot Beat Non-deep Counterparts on Molecular Property Prediction?"
+  - title: "Understanding the Limitations of Deep Models for Molecular property prediction: Insights and Solutions"
     authors: "Jun Xia, Lecheng Zhang, Xiao Zhu, Yue Liu, Zhangyang Gao, Bozhen Hu, <b>Cheng Tan</b>, Jiangbin Zheng, Siyuan Li, Stan Z. Li"
     venue: "NeurIPS'23: Neural Information Processing Systems, 2023."
+    paper_pdf: "/assets/publications/nips23_ifm.pdf"
     selected: y
 
   - title: "CONVERT: Contrastive Graph Clustering with Reliable Augmentation"
