@@ -1,51 +1,100 @@
 papers:
 
 # A
+
+  - title: "General Point Model Pretraining with Autoencoding and Autoregressive"
+    authors: "Zhe Li, Zhangyang Gao, <b>Cheng Tan</b>, Bocheng Ren, Laurence Tianruo Yang, Stan Z. Li"
+    venue: "CVPR, 2024"
+    selected: n
+
+  - title: "MLIP: Enhancing Medical Visual Representation with Divergence Encoder and Knowledge-guided Contrastive Learning"
+    authors: "Zhe Li, Laurence Tianruo Yang, Bocheng Ren, Xin Nie Nie, Zhangyang Gao, <b>Cheng Tan</b>, Stan Z. Li"
+    venue: "CVPR, 2024"
+    selected: n
+
+  - title: "A Survey on Generative Diffusion Model"
+    authors: "Hanqun Cao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Guangyong Chen, Pheng-Ann Heng, Stan Z. Li"
+    venue: "TKDE: IEEE Transactions on Knowledge and Data Engineering, 2024."
+    paper_pdf: "/assets/publications/tkde23_gdm.pdf"
+    code: "https://github.com/chq1155/A-Survey-on-Generative-Diffusion-Model"
+    selected: y
+
+  - title: "RDesign: Hierarchical Data-efficient Representation Learning for Tertiary Structure-based RNA Design"
+    authors: "<b>Cheng Tan<sup>‡</sup></b>, Yijie Zhang<sup>‡</sup>, Zhangyang Gao<sup>‡</sup>, Bozhen Hu, Siyuan Li, Zicheng Liu, Stan Z. Li"
+    venue: "ICLR, 2024."
+    code: "https://github.com/A4Bio/RDesign"
+    selected: y
+
+  - title: "KW-Design: Pushing the Limit of Protein Design via Knowledge Refinement"
+    authors: "Zhangyang Gao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Xingran Chen, Yijie Zhang, Jun Xia, Siyuan Li, Stan Z. Li"
+    venue: "ICLR, 2024."
+    code: "https://github.com/A4Bio/RDesign"
+    selected: y
+
+  - title: "SemiReward: A General Reward Model for Semi-supervised Learning"
+    authors: "Siyuan Li, Weiyang Jin, Zedong Wang, Fang Wu, Zicheng Liu, <b>Cheng Tan</b>, Stan Z. Li"
+    venue: "ICLR, 2024."
+    code: "https://github.com/Westlake-AI/SemiReward"
+    selected: n
+  
+  - title: "MogaNet: Multi-order Gated Aggregation Network"
+    authors: "Siyuan Li, Zedong Wang, Zicheng Liu, <b>Cheng Tan</b>, Haitao Lin, Di Wu, Zhiyuan Chen, Jiangbin Zheng, Stan Z. Li"
+    venue: "ICLR, 2024."
+    code: "https://github.com/Westlake-AI/MogaNet"
+    selected: n
+
+  - title: "Decoupling Weighing and Selecting for Integrating Multiple Graph Pre-training Tasks"
+    authors: "Tianyu Fan, Lirong Wu, Yufei Huang, Haitao Lin, <b>Cheng Tan</b>, Zhangyang Gao, Stan Z. Li"
+    venue: "ICLR, 2024."
+    selected: n
+
   - title: "Cross-Gate MLP with Protein Complex Invariant Embedding is A One-Shot Antibody Designer"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Lirong Wu, Jun Xia, Jiangbin Zheng, Xihong Yang, Yue Liu, Bozhen Hu, Stan Z. Li"
-    venue: "AAAI'24: Thirty-Eighth AAAI Conference on Artificial Intelligence, 2024."
+    venue: "AAAI, 2024."
+    paper_pdf: "/assets/publications/aaai24_antibody.pdf"
+    code: "https://github.com/A4Bio/ADesigner"
     selected: y
 
   - title: "PSC-CPI: Multi-Scale Protein Sequence-Structure Contrasting for Efficient and Generalizable Compound-Protein Interaction Prediction"
     authors: "Lirong Wu, Yufei Huang, <b>Cheng Tan</b>, Zhangyang Gao, Bozhen Hu, Haitao Lin, Zicheng Liu, Stan Z. Li"
-    venue: "AAAI'24: Thirty-Eighth AAAI Conference on Artificial Intelligence, 2024."
-    selected: y
+    venue: "AAAI, 2024."
+    selected: n
 
   - title: "Wavelet-Driven Spatiotemporal Predictive Learning: Bridging Frequency and Time Variations"
     authors: "Xuesong Nie, Yunfeng Yan, Siyuan Li, <b>Cheng Tan</b>, Xi Chen, Haoyuan Jin, Zhihang Zhu, Stan Z. Li, Donglian Qi."
-    venue: "AAAI'24: Thirty-Eighth AAAI Conference on Artificial Intelligence, 2024."
-    selected: y
+    venue: "AAAI, 2024."
+    selected: n
 
   - title: "OpenSTL: A Comprehensive Benchmark of Spatio-Temporal Predictive Learning"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Siyuan Li<sup>‡</sup>, Zhangyang Gao, Wenfei Guan, Zedong Wang, Zicheng Liu, Lirong Wu, Stan Z. Li"
-    venue: "NeurIPS'23: Neural Information Processing Systems - Datasets and Benchmarks Track, 2023."
+    venue: "NeurIPS, 2023."
     paper_pdf: "/assets/publications/nips23_openstl.pdf"
     code: "https://github.com/chengtan9907/OpenSTL"
     selected: y
 
-  - title: "ProteinBench: Benchmarking Protein Design on Diverse Tasks, Models, and Metrics"
+  - title: "Proteininvbench: Benchmarking Protein Inverse Folding on Diverse Tasks, Models, and Metrics"
     authors: "Zhangyang Gao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Yijie Zhang, Xingran Chen, Lirong Wu, Stan Z. Li"
-    venue: "NeurIPS'23: Neural Information Processing Systems - Datasets and Benchmarks Track, 2023."
+    venue: "NeurIPS, 2023."
     paper_pdf: "/assets/publications/nips23_protein_inv_bench.pdf"
     code: "https://github.com/A4Bio/ProteinInvBench"
     selected: y
 
   - title: "Harnessing Hard Mixed Samples with Decoupled Regularizer"
     authors: "Zicheng Liu<sup>‡</sup>, Siyuan Li<sup>‡</sup>, Ge Wang, Lirong Wu, <b>Cheng Tan</b>, Stan Z. Li"
-    venue: "NeurIPS'23: Neural Information Processing Systems, 2023."
+    venue: "NeurIPS, 2023."
     paper_pdf: "/assets/publications/nips23_decoupled_mixup.pdf"
     code: "https://github.com/Westlake-AI/openmixup"
-    selected: y
+    selected: n
 
   - title: "Understanding the Limitations of Deep Models for Molecular property prediction: Insights and Solutions"
     authors: "Jun Xia, Lecheng Zhang, Xiao Zhu, Yue Liu, Zhangyang Gao, Bozhen Hu, <b>Cheng Tan</b>, Jiangbin Zheng, Siyuan Li, Stan Z. Li"
-    venue: "NeurIPS'23: Neural Information Processing Systems, 2023."
+    venue: "NeurIPS, 2023."
     paper_pdf: "/assets/publications/nips23_ifm.pdf"
-    selected: y
+    selected: n
 
   - title: "CONVERT: Contrastive Graph Clustering with Reliable Augmentation"
     authors: "Xihong Yang, <b>Cheng Tan</b>, Yue Liu, Ke Liang, Siwei Wang, Sihang Zhou, Jun Xia, Stan Z. Li, Xinwang Liu, En Zhu"
-    venue: "ACM MM'23: ACM Multimedia, 2023."
+    venue: "ACM MM, 2023."
     paper_pdf: "/assets/publications/mm23_convert.pdf"
     code: "https://github.com/xihongyang1999/CONVERT"
     selected: y
@@ -53,53 +102,53 @@ papers:
   - title: "GNN Cleaner: Label Cleaner for Graph Structured Data"
     authors: "Jun Xia, Haitao Lin, Yongjie Xu, <b>Cheng Tan</b>, Lirong Wu, Yongjie Xu,  Siyuan Li, Stan Z. Li"
     venue: "TKDE: IEEE Transactions on Knowledge and Data Engineering, 2023."
-    selected: y
+    selected: n
 
   - title: "Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Lirong Wu, Yongjie Xu, Jun Xia, Siyuan Li, Stan Z. Li"
-    venue: "CVPR'23: IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2023."
+    venue: "CVPR, 2023."
     paper_pdf: "/assets/publications/cvpr23_tau.pdf"
     code: "https://github.com/chengtan9907/SimVPv2"
     selected: y
 
   - title: "CVT-SLR: Contrastive Visual-Textual Transformation for Sign Language Recognition with Variational Alignment"
     authors: "Jiangbin Zheng, Yile Wang, <b>Cheng Tan</b>, Siyuan Li, Ge Wang, Jun Xia, Yidong Chen, Stan Z. Li"
-    venue: "CVPR'23: IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2023."
+    venue: "CVPR, 2023."
     paper_pdf: "/assets/publications/cvpr23_cvt-slr.pdf"
     code: "https://github.com/binbinjiang/CVT-SLR"
-    selected: y
+    selected: n
 
   - title: "PiFold: Toward Effective and Efficient Protein Inverse Folding"
     authors: "Zhangyang Gao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Stan Z. Li"
-    venue: "ICLR'23: International Conference on Learning Representations, 2023 (<b>Spotlight</b>)."
+    venue: "ICLR, 2023 (<b>Spotlight</b>)."
     paper_pdf: "/assets/publications/iclr23_pifold.pdf"
     code: "https://github.com/A4Bio/PiFold"
     selected: y
 
   - title: "Mole-BERT: Rethinking Pre-training Graph Neural Networks for Molecules"
     authors: "Jun Xia, Chengshuai Zhao, Bozhen Hu, Zhangyang Gao, <b>Cheng Tan</b>, Yue Liu, Siyuan Li, Stan Z. Li"
-    venue: "ICLR'23: International Conference on Learning Representations, 2023."
+    venue: "ICLR, 2023."
     paper_pdf: "/assets/publications/iclr23_molbert.pdf"
     code: "https://github.com/junxia97/Mole-BERT"
     selected: n
 
   - title: "Hyperspherical Consistency Regularization"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Lirong Wu, Siyuan Li, Stan Z. Li"
-    venue: "CVPR'22: IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022."
+    venue: "CVPR, 2022."
     paper_pdf: "/assets/publications/cvpr22_hcr.pdf"
     code: "https://github.com/chengtan9907/Hyperspherical-Consistency-Regularization"
     selected: y
 
   - title: "SimVP: Simpler yet Better Video Prediction"
     authors: "Zhangyang Gao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Lirong Wu, Stan Z. Li"
-    venue: "CVPR'22: IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022."
+    venue: "CVPR, 2022."
     paper_pdf: "/assets/publications/cvpr22_simvp.pdf"
     code: "https://github.com/gaozhangyang/SimVP-Simpler-yet-Better-Video-Prediction"
     selected: y
 
   - title: "Co-learning: Learning from Noisy Labels with Self-supervision"
     authors: "<b>Cheng Tan</b>, Jun Xia, Lirong Wu, Stan Z. Li"
-    venue: "ACM MM'21: ACM Multimedia, 2021 (<b>Oral</b>)."
+    venue: "ACM MM, 2021 (<b>Oral</b>)."
     paper_pdf: "/assets/publications/mm21_colearning.pdf"
     code: "https://github.com/chengtan9907/Co-learning-Learning-from-noisy-labels-with-self-supervision"
     selected: y
@@ -115,40 +164,46 @@ papers:
 
   - title: "Deep Manifold Transformation for Protein Representation Learning"
     authors: "Bozhen Hu, Zelin Zang, <b>Cheng Tan</b>, Stan Z. Li"
-    venue: "ICASSP'24: The International Conference on Acoustics, Speech, & Signal Processing, 2024."
-    selected: y
+    venue: "ICASSP, 2024."
+    selected: n
 
   - title: "Target-aware Molecular Graph Generation"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Stan Z. Li"
-    venue: "ECML-PKDD'23: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases, 2023."
+    venue: "ECML-PKDD, 2023."
+    paper_pdf: "/assets/publications/ecml23_siamflow.pdf"
+    code: "https://github.com/A4Bio/"
     selected: y
 
   - title: "Learning to Augment Graph Structure for both Homophily and Heterophily Graphs"
     authors: "Lirong Wu<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zihan Liu, Zhangyang Gao, Haitao Lin, Stan Z. Li"
-    venue: "ECML-PKDD'23: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases, 2023."
+    venue: "ECML-PKDD, 2023."
+    paper_pdf: "/assets/publications/ecml23_l2a.pdf"
+    code: "https://github.com/LirongWu/"
     selected: y
 
   - title: "CoSP: Co-supervised Pre-training of pocket and ligand"
     authors: "Zhangyang Gao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Jun Xia, Stan Z. Li"
-    venue: "ECML-PKDD'23: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases, 2023."
+    venue: "ECML-PKDD, 2023."
+    paper_pdf: "/assets/publications/ecml23_cosp.pdf"
+    code: "https://github.com/A4Bio/"
     selected: y
 
   - title: "Generative De Novo Protein Design with Global Context"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Jun Xia, Bozhen Hu, Stan Z. Li"
-    venue: "ICASSP'23: The International Conference on Acoustics, Speech, & Signal Processing, 2023."
+    venue: "ICASSP, 2023."
     paper_pdf: "/assets/publications/icassp23_gca.pdf"
     code: "https://github.com/chengtan9907/Global-context-aware-generative-protein-design"
     selected: y
 
   - title: "Deep Manifold Graph Auto-Encoder for Attributed Graph Embedding"
     authors: "Bozhen Hu, Zelin Zang, Jun Xia, Lirong Wu, <b>Cheng Tan</b>, Stan Z. Li"
-    venue: "ICASSP'23: The International Conference on Acoustics, Speech, & Signal Processing, 2023."
+    venue: "ICASSP, 2023."
     paper_pdf: "/assets/publications/icassp23_dmvage.pdf"
     selected: n
 
   - title: "WordReg: Mitigating the Gap between Training and Inference with Worst-case Drop Regularization"
     authors: "Jun Xia, Ge Wang, Bozhen Hu, <b>Cheng Tan</b>, Jiangbin Zheng, Yongjie Xu, Stan Z. Li"
-    venue: "ICASSP'23: The International Conference on Acoustics, Speech, & Signal Processing, 2023."
+    venue: "ICASSP, 2023."
     paper_pdf: "/assets/publications/icassp23_wordreg.pdf"
     selected: n
 
@@ -159,15 +214,9 @@ papers:
     code: "https://github.com/Westlake-AI/DV"
     selected: y
 
-  - title: "Target-aware Molecular Graph Generation"
-    authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Stan Z. Li"
-    venue: "ICML-W'22: International Conference on Machine Learning @ AI for Science Workshop, 2022."
-    paper_pdf: "/assets/publications/icmlw22_siamflow.pdf"
-    selected: n
-
   - title: "OT Cleaner: Label Correction as Optimal Transport"
     authors: "Jun Xia<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Lirong Wu, Yongjie Xu, Stan Z. Li"
-    venue: "ICASSP'22: The International Conference on Acoustics, Speech, & Signal Processing, 2022."
+    venue: "ICASSP, 2022."
     paper_pdf: "/assets/publications/icassp22_otcleaner.pdf"
     code: "https://github.com/junxia97/OT-Cleaner"
     selected: y
@@ -180,7 +229,7 @@ papers:
 
   - title: "GraphMixup: Improving Class-Imbalanced Node Classification by Reinforcement Mixup and Self-supervised Context Prediction"
     authors: "Lirong Wu, Jun Xia, Zhangyang Gao, Haitao Lin, <b>Cheng Tan</b>, Stan Z. Li"
-    venue: "ECML-PKDD'22: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases, 2022."
+    venue: "ECML-PKDD, 2022."
     paper_pdf: "/assets/publications/ecml22_graphmixup.pdf"
     code: "https://github.com/LirongWu/GraphMixup"
     selected: n
@@ -194,9 +243,3 @@ papers:
 
 # Other
 
-  - title: "A Survey on Generative Diffusion Model"
-    authors: "Hanqun Cao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Guangyong Chen, Pheng-Ann Heng, Stan Z. Li"
-    venue: "TKDE (<b>Major Revision</b>) : IEEE Transactions on Knowledge and Data Engineering, 2023."
-    paper_pdf: "/assets/publications/tkde23_gdm.pdf"
-    code: "https://github.com/chq1155/A-Survey-on-Generative-Diffusion-Model"
-    selected: y
