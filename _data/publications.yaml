@@ -2,6 +2,31 @@ papers:
 
 # A
 
+  - title: "RFold: Deciphering RNA Secondary Structure Prediction: A Probabilistic K-Rook Matching Perspective"
+    authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Hanqun Cao, Xingran Chen, Ge Wang, Lirong Wu, Jun Xia, Jiangbin Zheng, Stan Z. Li"
+    venue: "ICML, 2024."
+    code: "https://github.com/A4Bio/RFold"
+    selected: y
+
+  - title: "A Graph is Worth K Words: Euclideanizing Graph using Pure Transformer"
+    authors: "Zhangyang Gao, Daize Dong, <b>Cheng Tan</b>, Jun Xia, Bozhen Hu, Stan Z. Li"
+    venue: "ICML, 2024."
+    # code: "https://github.com/A4Bio/RFold"
+    selected: n
+
+  - title: "Re-Dock: Towards Flexible and Realistic Molecular Docking with Diffusion Bridge
+"
+    authors: "Yufei Huang, Odin Zhang, Lirong Wu, <b>Cheng Tan</b>, Haitao Lin, Zhangyang Gao, Siyuan Li, Stan Z. Li"
+    venue: "ICML, 2024."
+    # code: "https://github.com/A4Bio/RFold"
+    selected: n
+
+  - title: "VQDNA: Unleashing the Power of Vector Quantization for Multi-Species Genomic Sequence Modeling"
+    authors: "Siyuan Li, Zedong Wang, Zicheng Liu, Di Wu, Cheng Tan, Jiangbin Zheng, Yufei Huang, Stan Z. Li"
+    venue: "ICML, 2024."
+    # code: "https://github.com/A4Bio/RFold"
+    selected: n
+
   - title: "General Point Model Pretraining with Autoencoding and Autoregressive"
     authors: "Zhe Li, Zhangyang Gao, <b>Cheng Tan</b>, Bocheng Ren, Laurence Tianruo Yang, Stan Z. Li"
     venue: "CVPR, 2024"
