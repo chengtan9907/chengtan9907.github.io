@@ -1,6 +1,11 @@
 papers:
 
 # A
+  - title: "Boosting the Power of Small Multimodal Reasoning Models to Match Larger Models with Self-Consistency Training"
+    authors: "<b>Cheng Tan<sup>‡</sup></b>, Jingxuan Wei<sup>‡</sup>, Zhangyang Gao, Linzhuang Sun, Siyuan Li, Ruifeng Guo, Bihui Yu, Stan Z. Li"
+    venue: "ECCV, 2024."
+    code: "https://github.com/chengtan9907/mc-cot"
+    selected: y
 
   - title: "RFold: Deciphering RNA Secondary Structure Prediction: A Probabilistic K-Rook Matching Perspective"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Hanqun Cao, Xingran Chen, Ge Wang, Lirong Wu, Jun Xia, Jiangbin Zheng, Stan Z. Li"
@@ -11,7 +16,7 @@ papers:
   - title: "A Graph is Worth K Words: Euclideanizing Graph using Pure Transformer"
     authors: "Zhangyang Gao, Daize Dong, <b>Cheng Tan</b>, Jun Xia, Bozhen Hu, Stan Z. Li"
     venue: "ICML, 2024."
-    # code: "https://github.com/A4Bio/RFold"
+    code: "https://github.com/A4Bio/GraphsGPT"
     selected: n
 
   - title: "Re-Dock: Towards Flexible and Realistic Molecular Docking with Diffusion Bridge
@@ -38,7 +43,7 @@ papers:
     selected: n
 
   - title: "A Survey on Generative Diffusion Model"
-    authors: "Hanqun Cao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Guangyong Chen, Pheng-Ann Heng, Stan Z. Li"
+    authors: "Hanqun Cao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Yilun Xu, Guangyong Chen, Pheng-Ann Heng, Stan Z. Li"
     venue: "TKDE: IEEE Transactions on Knowledge and Data Engineering, 2024."
     paper_pdf: "/assets/publications/tkde23_gdm.pdf"
     code: "https://github.com/chq1155/A-Survey-on-Generative-Diffusion-Model"
@@ -186,6 +191,11 @@ papers:
     selected: y
 
 # B
+
+  - title: "Interpretable and Generalizable Spatiotemporal Predictive Learning with Disentangled Consistency"
+    authors: "Jingxuan Wei<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao, Linzhuang Sun, Bihui Yu, Ruifeng Guo, Stan Z. Li"
+    venue: "ECML-PKDD, 2024."
+    selected: n
 
   - title: "Deep Manifold Transformation for Protein Representation Learning"
     authors: "Bozhen Hu, Zelin Zang, <b>Cheng Tan</b>, Stan Z. Li"
