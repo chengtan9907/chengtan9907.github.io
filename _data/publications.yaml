@@ -195,7 +195,7 @@ papers:
   - title: "Interpretable and Generalizable Spatiotemporal Predictive Learning with Disentangled Consistency"
     authors: "Jingxuan Wei<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao, Linzhuang Sun, Bihui Yu, Ruifeng Guo, Stan Z. Li"
     venue: "ECML-PKDD, 2024."
-    selected: n
+    selected: y
 
   - title: "Deep Manifold Transformation for Protein Representation Learning"
     authors: "Bozhen Hu, Zelin Zang, <b>Cheng Tan</b>, Stan Z. Li"
@@ -271,7 +271,7 @@ papers:
 
   - title: "Multi-level disentanglement graph neural network"
     authors: "Lirong Wu, Haitao Lin, Jun Xia, <b>Cheng Tan</b>, Stan Z. Li"
-    venue: "NCA: Neural Computing and Applications, 2022."
+    venue: "NCAA: Neural Computing and Applications, 2022."
     paper_pdf: "/assets/publications/nca22_mdgnn.pdf"
     code: "https://github.com/LirongWu/MD-GNN"
     selected: n
