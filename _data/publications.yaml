@@ -4,12 +4,14 @@ papers:
   - title: "Boosting the Power of Small Multimodal Reasoning Models to Match Larger Models with Self-Consistency Training"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Jingxuan Wei<sup>‡</sup>, Zhangyang Gao, Linzhuang Sun, Siyuan Li, Ruifeng Guo, Bihui Yu, Stan Z. Li"
     venue: "ECCV, 2024."
+    paper_pdf: "/assets/publications/eccv24_mc-cot.pdf"
     code: "https://github.com/chengtan9907/mc-cot"
     selected: y
 
   - title: "RFold: Deciphering RNA Secondary Structure Prediction: A Probabilistic K-Rook Matching Perspective"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Hanqun Cao, Xingran Chen, Ge Wang, Lirong Wu, Jun Xia, Jiangbin Zheng, Stan Z. Li"
     venue: "ICML, 2024."
+    paper_pdf: "/assets/publications/icml24_rfold.pdf"
     code: "https://github.com/A4Bio/RFold"
     selected: y
 
@@ -19,8 +21,7 @@ papers:
     code: "https://github.com/A4Bio/GraphsGPT"
     selected: n
 
-  - title: "Re-Dock: Towards Flexible and Realistic Molecular Docking with Diffusion Bridge
-"
+  - title: "Re-Dock: Towards Flexible and Realistic Molecular Docking with Diffusion Bridge"
     authors: "Yufei Huang, Odin Zhang, Lirong Wu, <b>Cheng Tan</b>, Haitao Lin, Zhangyang Gao, Siyuan Li, Stan Z. Li"
     venue: "ICML, 2024."
     # code: "https://github.com/A4Bio/RFold"
@@ -52,12 +53,14 @@ papers:
   - title: "RDesign: Hierarchical Data-efficient Representation Learning for Tertiary Structure-based RNA Design"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Yijie Zhang<sup>‡</sup>, Zhangyang Gao<sup>‡</sup>, Bozhen Hu, Siyuan Li, Zicheng Liu, Stan Z. Li"
     venue: "ICLR, 2024."
+    paper_pdf: "/assets/publications/iclr24_rdesign.pdf"
     code: "https://github.com/A4Bio/RDesign"
     selected: y
 
   - title: "KW-Design: Pushing the Limit of Protein Design via Knowledge Refinement"
     authors: "Zhangyang Gao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Xingran Chen, Yijie Zhang, Jun Xia, Siyuan Li, Stan Z. Li"
     venue: "ICLR, 2024."
+    paper_pdf: "/assets/publications/iclr24_kwdesign.pdf"
     code: "https://github.com/A4Bio/RDesign"
     selected: y
 
@@ -191,6 +194,19 @@ papers:
     selected: y
 
 # B
+  - title: "Learning to Model Graph Structural Information on MLPs via Graph Structure Self-Contrasting"
+    authors: "Lirong Wu, Haitao Lin, Guojiang Zhao, <b>Cheng Tan</b>, Stan Z. Li"
+    venue: "TNNLS: IEEE Transactions on Neural Networks and Learning Systems, 2024."
+    paper_pdf: "/assets/publications/tnnls24_gssc.pdf"
+    code: "https://github.com/LirongWu/GSSC"
+    selected: n
+
+  - title: "Enhancing Human-like Multi-Modal Reasoning: A New Challenging Dataset and Comprehensive Framework"
+    authors: "Jingxuan Wei, <b>Cheng Tan</b>, Zhangyang Gao, Linzhuang Sun, Siyuan Li, Bihui Yu, Ruifeng Guo, Stan Z. Li"
+    venue: "NCAA: Neural Computing and Applications, 2024."
+    paper_pdf: "/assets/publications/nca24_coco-mmr.pdf"
+    code: "https://github.com/weijingxuan/COCO-MMR"
+    selected: n
 
   - title: "Interpretable and Generalizable Spatiotemporal Predictive Learning with Disentangled Consistency"
     authors: "Jingxuan Wei<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao, Linzhuang Sun, Bihui Yu, Ruifeng Guo, Stan Z. Li"
@@ -242,13 +258,6 @@ papers:
     paper_pdf: "/assets/publications/icassp23_wordreg.pdf"
     selected: n
 
-  - title: "Structure-Preserving and Batch-Correcting Visualization Using Deep Manifold Transformation for Single-cell RNA-Seq Profiles"
-    authors: "Yongjie Xu, Zelin Zang, Jun Xia, <b>Cheng Tan</b>, Yulan Geng, Stan Z Li"
-    venue: "Communication Biology, 2023."
-    paper_pdf: "/assets/publications/cb23_dmt.pdf"
-    code: "https://github.com/Westlake-AI/DV"
-    selected: y
-
   - title: "OT Cleaner: Label Correction as Optimal Transport"
     authors: "Jun Xia<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Lirong Wu, Yongjie Xu, Stan Z. Li"
     venue: "ICASSP, 2022."
@@ -278,3 +287,9 @@ papers:
 
 # Other
 
+  - title: "Structure-Preserving and Batch-Correcting Visualization Using Deep Manifold Transformation for Single-cell RNA-Seq Profiles"
+    authors: "Yongjie Xu, Zelin Zang, Jun Xia, <b>Cheng Tan</b>, Yulan Geng, Stan Z Li"
+    venue: "Communication Biology, 2023."
+    paper_pdf: "/assets/publications/cb23_dmt.pdf"
+    code: "https://github.com/Westlake-AI/DV"
+    selected: y
