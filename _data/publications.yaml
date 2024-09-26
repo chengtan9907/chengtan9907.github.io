@@ -1,12 +1,25 @@
 papers:
 
 # A
-  - title: "Boosting the Power of Small Multimodal Reasoning Models to Match Larger Models with Self-Consistency Training"
-    authors: "<b>Cheng Tan<sup>‡</sup></b>, Jingxuan Wei<sup>‡</sup>, Zhangyang Gao, Linzhuang Sun, Siyuan Li, Ruifeng Guo, Bihui Yu, Stan Z. Li"
-    venue: "ECCV, 2024."
-    paper_pdf: "/assets/publications/eccv24_mc-cot.pdf"
-    code: "https://github.com/chengtan9907/mc-cot"
+  - title: "Learning Complete Protein Representation by Dynamically Coupling of Sequence and Structure"
+    authors: "Bozhen Hu<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Jun Xia, Yue Liu, Lirong Wu, Jiangbin Zheng, Yongjie Xu, Yufei Huang, Stan Z. Li"
+    venue: "NeurIPS, 2024."
     selected: y
+
+  - title: "ProtGO: Function-Guided Protein Modeling for Unified Representation Learning"
+    authors: "Bozhen Hu<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Yongjie Xu, Zhangyang Gao, Jun Xia, Lirong Wu, Stan Z. Li"
+    venue: "NeurIPS, 2024."
+    selected: y
+
+  - title: "UniIF: Unified Molecule Inverse Folding"
+    authors: "Zhangyang Gao<sup>‡</sup>, Jue Wang<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Lirong Wu, Yufei Huang, Siyuan Li, Zhirui Ye, Stan Z. Li"
+    venue: "NeurIPS, 2024."
+    selected: y
+
+  - title: "Towards Robust \emph{De Novo} Peptide Sequencing in Proteomics against Data Biases"
+    authors: "Jun Xia, Shaorong Chen, Jingbo Zhou, Xiaojun Shan, Wenjie Du, Zhangyang Gao, <b>Cheng Tan</b>, Bozhen Hu, Jiangbin Zheng, Stan Z. Li"
+    venue: "NeurIPS, 2024."
+    selected: n
 
   - title: "RFold: Deciphering RNA Secondary Structure Prediction: A Probabilistic K-Rook Matching Perspective"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Hanqun Cao, Xingran Chen, Ge Wang, Lirong Wu, Jun Xia, Jiangbin Zheng, Stan Z. Li"
