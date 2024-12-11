@@ -243,8 +243,9 @@ papers:
   - title: "R3Design: Deep Tertiary Structure-based RNA Sequence Design and Beyond"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Yijie Zhang<sup>‡</sup>, Zhangyang Gao<sup>‡</sup>, Siyuan Li, Siqi Ma, Mathieu Blanchette, Stan Z. Li"
     venue: "Briefings in Bioinformatics, 2024."
+    paper_pdf: ""
     code: "https://github.com/A4Bio/R3Design"
-    selected: n
+    selected: y
   
   - title: "Learning to Model Graph Structural Information on MLPs via Graph Structure Self-Contrasting"
     authors: "Lirong Wu, Haitao Lin, Guojiang Zhao, <b>Cheng Tan</b>, Stan Z. Li"
@@ -263,6 +264,8 @@ papers:
   - title: "Interpretable and Generalizable Spatiotemporal Predictive Learning with Disentangled Consistency"
     authors: "Jingxuan Wei<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao, Linzhuang Sun, Bihui Yu, Ruifeng Guo, Stan Z. Li"
     venue: "ECML-PKDD, 2024."
+    paper_pdf: ""
+    code: ""
     selected: y
 
   - title: "Deep Manifold Transformation for Protein Representation Learning"
