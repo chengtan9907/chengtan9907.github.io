@@ -1,19 +1,53 @@
 papers:
 
 # A
+  - title: "dyAb: Flow Matching for Flexible Antibody Design with AlphaFold-driven Pre-binding Antigen"
+    authors: "<b>Cheng Tan<sup>‡</sup></b>, Yijie Zhang<sup>‡</sup>, Zhangyang Gao<sup>‡</sup>, Yufei Huang, Haitao Lin, Lirong Wu, Fandi Wu, Mathieu Blanchette, Stan Z. Li"
+    venue: "AAAI, 2025."
+    # paper_pdf: ""
+    # code: ""
+    selected: y
+
+  - title: "FoldToken: Learning Protein Language via Vector Quantization and Beyond"
+    authors: "Zhangyang Gao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Jue Wang, Yufei Huang, Lirong Wu, Stan Z. Li"
+    venue: "AAAI, 2025."
+    # paper_pdf: ""
+    # code: ""
+    selected: y
+
+  - title: "Relation-Aware Equivariant Graph Networks for Epitope-Unknown Antibody Design and Specificity Optimization"
+    authors: "Lirong Wu, Haitao Lin, Yufei Huang, Zhangyang Gao, <b>Cheng Tan</b>, Yunfan Liu, Tailin Wu, Stan Z. Li"
+    venue: "AAAI, 2025."
+    # paper_pdf: ""
+    # code: ""
+    selected: n
+
+  - title: "SimVPv2: Towards Simple yet Powerful Spatiotemporal Predictive Learning"
+    authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Siyuan Li<sup>‡</sup>, Stan Z. Li"
+    venue: "TMM: IEEE Transactions on Multimedia, 2024."
+    paper_pdf: ""
+    code: "https://github.com/chengtan9907/OpenSTL/tree/SimVPv2"
+    selected: y
+
   - title: "Learning Complete Protein Representation by Dynamically Coupling of Sequence and Structure"
     authors: "Bozhen Hu<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Jun Xia, Yue Liu, Lirong Wu, Jiangbin Zheng, Yongjie Xu, Yufei Huang, Stan Z. Li"
     venue: "NeurIPS, 2024."
+    code: "https://github.com/bozhenhhu/CoupleNet"
+    paper_pdf: "/assets/publications/nips24_couplenet.pdf"
     selected: y
 
   - title: "ProtGO: Function-Guided Protein Modeling for Unified Representation Learning"
     authors: "Bozhen Hu<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Yongjie Xu, Zhangyang Gao, Jun Xia, Lirong Wu, Stan Z. Li"
     venue: "NeurIPS, 2024."
+    paper_pdf: "/assets/publications/nips24_protgo.pdf"
+    code: ""
     selected: y
 
   - title: "UniIF: Unified Molecule Inverse Folding"
     authors: "Zhangyang Gao<sup>‡</sup>, Jue Wang<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Lirong Wu, Yufei Huang, Siyuan Li, Zhirui Ye, Stan Z. Li"
     venue: "NeurIPS, 2024."
+    paper_pdf: "/assets/publications/nips24_uniif.pdf"
+    code: "https://github.com/A4Bio/ProteinInvBench"
     selected: y
 
   - title: "Towards Robust \emph{De Novo} Peptide Sequencing in Proteomics against Data Biases"
@@ -43,7 +77,6 @@ papers:
   - title: "VQDNA: Unleashing the Power of Vector Quantization for Multi-Species Genomic Sequence Modeling"
     authors: "Siyuan Li, Zedong Wang, Zicheng Liu, Di Wu, Cheng Tan, Jiangbin Zheng, Yufei Huang, Stan Z. Li"
     venue: "ICML, 2024."
-    # code: "https://github.com/A4Bio/RFold"
     selected: n
 
   - title: "General Point Model Pretraining with Autoencoding and Autoregressive"
@@ -207,6 +240,12 @@ papers:
     selected: y
 
 # B
+  - title: "R3Design: Deep Tertiary Structure-based RNA Sequence Design and Beyond"
+    authors: "<b>Cheng Tan<sup>‡</sup></b>, Yijie Zhang<sup>‡</sup>, Zhangyang Gao<sup>‡</sup>, Siyuan Li, Siqi Ma, Mathieu Blanchette, Stan Z. Li"
+    venue: "Briefings in Bioinformatics, 2024."
+    code: "https://github.com/A4Bio/R3Design"
+    selected: n
+  
   - title: "Learning to Model Graph Structural Information on MLPs via Graph Structure Self-Contrasting"
     authors: "Lirong Wu, Haitao Lin, Guojiang Zhao, <b>Cheng Tan</b>, Stan Z. Li"
     venue: "TNNLS: IEEE Transactions on Neural Networks and Learning Systems, 2024."
