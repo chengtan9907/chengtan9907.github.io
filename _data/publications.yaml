@@ -1,9 +1,65 @@
 papers:
 
 # A
+  - title: "From Words to Structured Visuals: A Benchmark and Framework for Text-to-Diagram Generation and Editing"
+    authors: "Jingxuan Wei<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Qi Chen, Gaowei Wu, Siyuan Li, Zhangyang Gao, Linzhuang Sun, Bihui Yu, Ruifeng Guo"
+    venue: "CVPR, 2025."
+    # paper_pdf: ""
+    # code: ""
+    selected: y
+
+  - title: "MergeVQ: A Unified Framework for Visual Generation and Representation with Disentangled Token Merging and Quantization"
+    authors: "Siyuan Li, Luyuan Zhang, Zedong Wang, Juanxi Tian, <b>Cheng Tan</b>, Zicheng Liu, Chang Yu, Qingsong Xie, Haonan Lu, Haoqian Wang, Zhen Lei"
+    venue: "CVPR, 2025."
+    # paper_pdf: ""
+    # code: ""
+    selected: n
+
+  - title: "DaCapo: Score Distillation as Stacked Bridge for Fast and High-quality 3D Editing"
+    authors: "Yufei Huang, Bangyan Liao, Yuqi Hu, Haitao Lin, Lirong Wu, Siyuan Li, <b>Cheng Tan</b>, Zicheng Liu, Yunfan Liu, Zelin Zang, Chang Yu, Zhen Lei"
+    venue: "CVPR, 2025."
+    # paper_pdf: ""
+    # code: ""
+    selected: n
+
+  - title: "MeToken: Uniform Micro-environment Token Boosts Post-Translational Modification Prediction"
+    authors: "<b>Cheng Tan</b>, Zhenxiao Cao, Zhangyang Gao, Lirong Wu, Siyuan Li, Yufei Huang, Jun Xia, Bozhen Hu, Stan Z. Li"
+    venue: "ICLR, 2025."
+    # paper_pdf: ""
+    # code: ""
+    selected: y
+
+  - title: "EVA: Geometric Inverse Design for Fast Protein Motif-Scaffolding with Coupled Flow"
+    authors: "Yufei Huang, Yunshu Liu, Lirong Wu, Haitao Lin, <b>Cheng Tan</b>, Odin Zhang, Zhangyang Gao, Siyuan Li, Zicheng Liu, Yunfan Liu, Tailin Wu, Stan Z. Li"
+    venue: "ICLR, 2025."
+    # paper_pdf: ""
+    # code: ""
+    selected: n
+
+  - title: "ReNovo: Retrieval-Based De Novo Mass Spectrometry Peptide Sequencing"
+    authors: "Shaorong Chen, Jun Xia, Jingbo Zhou, Lecheng Zhang, Zhangyang Gao, Bozhen Hu, <b>Cheng Tan</b>, Wenjie Du, Stan Z. Li"
+    venue: "ICLR, 2025."
+    # paper_pdf: ""
+    # code: ""
+    selected: n
+
+  - title: "CBGBench: Fill in the Blank of Protein-Molecule Complex Binding Graph"
+    authors: "Haitao Lin, Guojiang Zhao, Odin Zhang, Yufei Huang, Lirong Wu, <b>Cheng Tan</b>, Zicheng Liu, Zhifeng Gao, Stan Z. Li"
+    venue: "ICLR, 2025."
+    # paper_pdf: ""
+    # code: ""
+    selected: n
+
+  - title: "An Empirical Study: Extensive Deep Temporal Point Process"
+    authors: "Haitao Lin, <b>Cheng Tan</b>, Lirong Wu, Zhangyang Gao, Zicheng Liu, Stan Z. Li"
+    venue: "TKDE: IEEE Transactions on Knowledge and Data Engineering, 2025."
+    # paper_pdf: ""
+    # code: ""
+    selected: n
+
   - title: "dyAb: Flow Matching for Flexible Antibody Design with AlphaFold-driven Pre-binding Antigen"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Yijie Zhang<sup>‡</sup>, Zhangyang Gao<sup>‡</sup>, Yufei Huang, Haitao Lin, Lirong Wu, Fandi Wu, Mathieu Blanchette, Stan Z. Li"
-    venue: "AAAI, 2025."
+    venue: "AAAI, 2025 (<b>Oral</b>)."
     # paper_pdf: ""
     # code: ""
     selected: y
@@ -54,6 +110,13 @@ papers:
     authors: "Jun Xia, Shaorong Chen, Jingbo Zhou, Xiaojun Shan, Wenjie Du, Zhangyang Gao, <b>Cheng Tan</b>, Bozhen Hu, Jiangbin Zheng, Stan Z. Li"
     venue: "NeurIPS, 2024."
     selected: n
+
+  - title: "Boosting the Power of Small Multimodal Reasoning Models to Match Larger Models with Self-Consistency Training"
+    authors: "<b>Cheng Tan<sup>‡</sup></b>, Jingxuan Wei<sup>‡</sup>, Zhangyang Gao, Linzhuang Sun, Siyuan Li, Bihui Yu, Ruifeng Guo, Stan Z. Li"
+    venue: "ECCV, 2024"
+    paper_pdf: "/assets/publications/eccv24_mc-cot.pdf"
+    code: "https://github.com/chengtan9907/mc-cot"
+    selected: y
 
   - title: "RFold: Deciphering RNA Secondary Structure Prediction: A Probabilistic K-Rook Matching Perspective"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Hanqun Cao, Xingran Chen, Ge Wang, Lirong Wu, Jun Xia, Jiangbin Zheng, Stan Z. Li"
@@ -240,6 +303,13 @@ papers:
     selected: y
 
 # B
+  - title: "Complex hierarchical structures analysis in single-cell data with Poincaré deep manifold transformation"
+    authors: "Yongjie Xu, Zelin Zang, Bozhen Hu, <b>Cheng Tan</b>, Jun Xia, Stan Z. Li"
+    venue: "Briefings in Bioinformatics, 2024."
+    paper_pdf: ""
+    code: ""
+    selected: n
+
   - title: "R3Design: Deep Tertiary Structure-based RNA Sequence Design and Beyond"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Yijie Zhang<sup>‡</sup>, Zhangyang Gao<sup>‡</sup>, Siyuan Li, Siqi Ma, Mathieu Blanchette, Stan Z. Li"
     venue: "Briefings in Bioinformatics, 2024."
