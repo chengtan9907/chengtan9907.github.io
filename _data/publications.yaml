@@ -3,7 +3,7 @@ papers:
 # A
   - title: "From Words to Structured Visuals: A Benchmark and Framework for Text-to-Diagram Generation and Editing"
     authors: "Jingxuan Wei<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Qi Chen, Gaowei Wu, Siyuan Li, Zhangyang Gao, Linzhuang Sun, Bihui Yu, Ruifeng Guo"
-    venue: "CVPR, 2025."
+    venue: "CVPR, 2025 (<b>Highlight</b>)."
     # paper_pdf: ""
     # code: ""
     selected: y
