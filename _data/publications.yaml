@@ -1,11 +1,24 @@
 papers:
 
 # A
+
+  - title: "USTEP: Spatio-Temporal Predictive Learning under A Unified View"
+    authors: "<b>Cheng Tan<sup>‡</sup></b>, Jue Wang<sup>‡</sup>, Zhangyang Gao<sup>‡</sup>, Siyuan Li, Stan Z. Li"
+    venue: "TPAMI, 2025."
+    selected: y
+
+  - title: "SketchAgent: Generating Structured Diagrams from Hand-Drawn Sketches"
+    authors: "<b>Cheng Tan<sup>‡</sup></b>, Qi Chen<sup>‡</sup>, Jingxuan Wei<sup>‡</sup>, Gaowei Wu, Zhangyang Gao, Siyuan Li, Bihui Yu, Ruifeng Guo, Stan Z. Li"
+    venue: "IJCAI, 2025."
+    # paper_pdf: "/assets/publications/cvpr25_sketchagent.pdf"
+    # code: ""
+    selected: y
+
   - title: "From Words to Structured Visuals: A Benchmark and Framework for Text-to-Diagram Generation and Editing"
     authors: "Jingxuan Wei<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Qi Chen, Gaowei Wu, Siyuan Li, Zhangyang Gao, Linzhuang Sun, Bihui Yu, Ruifeng Guo"
     venue: "CVPR, 2025 (<b>Highlight</b>)."
-    # paper_pdf: ""
-    # code: ""
+    paper_pdf: "/assets/publications/cvpr25_diagram.pdf"
+    code: "https://huggingface.co/collections/DiagramAgent"
     selected: y
 
   - title: "MergeVQ: A Unified Framework for Visual Generation and Representation with Disentangled Token Merging and Quantization"
@@ -25,8 +38,8 @@ papers:
   - title: "MeToken: Uniform Micro-environment Token Boosts Post-Translational Modification Prediction"
     authors: "<b>Cheng Tan</b>, Zhenxiao Cao, Zhangyang Gao, Lirong Wu, Siyuan Li, Yufei Huang, Jun Xia, Bozhen Hu, Stan Z. Li"
     venue: "ICLR, 2025."
-    # paper_pdf: ""
-    # code: ""
+    paper_pdf: "/assets/publications/iclr25_metoken.pdf"
+    code: "https://github.com/A4Bio/MeToken"
     selected: y
 
   - title: "EVA: Geometric Inverse Design for Fast Protein Motif-Scaffolding with Coupled Flow"
@@ -52,7 +65,7 @@ papers:
 
   - title: "An Empirical Study: Extensive Deep Temporal Point Process"
     authors: "Haitao Lin, <b>Cheng Tan</b>, Lirong Wu, Zhangyang Gao, Zicheng Liu, Stan Z. Li"
-    venue: "TKDE: IEEE Transactions on Knowledge and Data Engineering, 2025."
+    venue: "TKDE, 2025."
     # paper_pdf: ""
     # code: ""
     selected: n
@@ -60,15 +73,15 @@ papers:
   - title: "dyAb: Flow Matching for Flexible Antibody Design with AlphaFold-driven Pre-binding Antigen"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Yijie Zhang<sup>‡</sup>, Zhangyang Gao<sup>‡</sup>, Yufei Huang, Haitao Lin, Lirong Wu, Fandi Wu, Mathieu Blanchette, Stan Z. Li"
     venue: "AAAI, 2025 (<b>Oral</b>)."
-    # paper_pdf: ""
-    # code: ""
+    paper_pdf: "/assets/publications/aaai25_dyab.pdf"
+    code: "https://github.com/A4Bio/dyAb"
     selected: y
 
   - title: "FoldToken: Learning Protein Language via Vector Quantization and Beyond"
     authors: "Zhangyang Gao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Jue Wang, Yufei Huang, Lirong Wu, Stan Z. Li"
     venue: "AAAI, 2025."
-    # paper_pdf: ""
-    # code: ""
+    paper_pdf: "/assets/publications/aaai25_foldtoken.pdf"
+    code: "https://github.com/A4Bio/FoldGPT_open"
     selected: y
 
   - title: "Relation-Aware Equivariant Graph Networks for Epitope-Unknown Antibody Design and Specificity Optimization"
@@ -154,7 +167,7 @@ papers:
 
   - title: "A Survey on Generative Diffusion Model"
     authors: "Hanqun Cao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Yilun Xu, Guangyong Chen, Pheng-Ann Heng, Stan Z. Li"
-    venue: "TKDE: IEEE Transactions on Knowledge and Data Engineering, 2024."
+    venue: "TKDE, 2024."
     paper_pdf: "/assets/publications/tkde23_gdm.pdf"
     code: "https://github.com/chq1155/A-Survey-on-Generative-Diffusion-Model"
     selected: y
@@ -243,7 +256,7 @@ papers:
 
   - title: "GNN Cleaner: Label Cleaner for Graph Structured Data"
     authors: "Jun Xia, Haitao Lin, Yongjie Xu, <b>Cheng Tan</b>, Lirong Wu, Yongjie Xu,  Siyuan Li, Stan Z. Li"
-    venue: "TKDE: IEEE Transactions on Knowledge and Data Engineering, 2023."
+    venue: "TKDE, 2023."
     selected: n
 
   - title: "Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning"
@@ -297,7 +310,7 @@ papers:
 
   - title: "Self-supervised Learning on Graphs: Contrastive, Generative, or Predictive"
     authors: "Lirong Wu, Haitao Lin, <b>Cheng Tan</b>, Zhangyang Gao, Stan Z. Li"
-    venue: "TKDE: IEEE Transactions on Knowledge and Data Engineering, 2021."
+    venue: "TKDE, 2021."
     paper_pdf: "/assets/publications/tkde21_ssl.pdf"
     code: "https://github.com/LirongWu/awesome-graph-self-supervised-learning"
     selected: y
@@ -315,7 +328,7 @@ papers:
     venue: "Briefings in Bioinformatics, 2024."
     paper_pdf: ""
     code: "https://github.com/A4Bio/R3Design"
-    selected: y
+    selected: n
   
   - title: "Learning to Model Graph Structural Information on MLPs via Graph Structure Self-Contrasting"
     authors: "Lirong Wu, Haitao Lin, Guojiang Zhao, <b>Cheng Tan</b>, Stan Z. Li"
@@ -336,7 +349,7 @@ papers:
     venue: "ECML-PKDD, 2024."
     paper_pdf: ""
     code: ""
-    selected: y
+    selected: n
 
   - title: "Deep Manifold Transformation for Protein Representation Learning"
     authors: "Bozhen Hu, Zelin Zang, <b>Cheng Tan</b>, Stan Z. Li"
@@ -348,28 +361,28 @@ papers:
     venue: "ECML-PKDD, 2023."
     paper_pdf: "/assets/publications/ecml23_siamflow.pdf"
     code: "https://github.com/A4Bio/"
-    selected: y
+    selected: n
 
   - title: "Learning to Augment Graph Structure for both Homophily and Heterophily Graphs"
     authors: "Lirong Wu<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zihan Liu, Zhangyang Gao, Haitao Lin, Stan Z. Li"
     venue: "ECML-PKDD, 2023."
     paper_pdf: "/assets/publications/ecml23_l2a.pdf"
     code: "https://github.com/LirongWu/"
-    selected: y
+    selected: n
 
   - title: "CoSP: Co-supervised Pre-training of pocket and ligand"
     authors: "Zhangyang Gao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Jun Xia, Stan Z. Li"
     venue: "ECML-PKDD, 2023."
     paper_pdf: "/assets/publications/ecml23_cosp.pdf"
     code: "https://github.com/A4Bio/"
-    selected: y
+    selected: n
 
   - title: "Generative De Novo Protein Design with Global Context"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Jun Xia, Bozhen Hu, Stan Z. Li"
     venue: "ICASSP, 2023."
     paper_pdf: "/assets/publications/icassp23_gca.pdf"
     code: "https://github.com/chengtan9907/Global-context-aware-generative-protein-design"
-    selected: y
+    selected: n
 
   - title: "Deep Manifold Graph Auto-Encoder for Attributed Graph Embedding"
     authors: "Bozhen Hu, Zelin Zang, Jun Xia, Lirong Wu, <b>Cheng Tan</b>, Stan Z. Li"
@@ -388,7 +401,7 @@ papers:
     venue: "ICASSP, 2022."
     paper_pdf: "/assets/publications/icassp22_otcleaner.pdf"
     code: "https://github.com/junxia97/OT-Cleaner"
-    selected: y
+    selected: n
 
   - title: "Beyond Homophily and Homogeneity Assumption: Relation-based Frequency Adaptive Graph Neural Networks"
     authors: "Lirong Wu, Haitao Lin, Bozhen Hu, Zhangyang Gao, Cheng Tan, Zicheng Liu, Stan Z. Li"
@@ -417,4 +430,4 @@ papers:
     venue: "Communication Biology, 2023."
     paper_pdf: "/assets/publications/cb23_dmt.pdf"
     code: "https://github.com/Westlake-AI/DV"
-    selected: y
+    selected: n
