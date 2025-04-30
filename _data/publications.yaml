@@ -10,9 +10,16 @@ papers:
   - title: "SketchAgent: Generating Structured Diagrams from Hand-Drawn Sketches"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Qi Chen<sup>‡</sup>, Jingxuan Wei<sup>‡</sup>, Gaowei Wu, Zhangyang Gao, Siyuan Li, Bihui Yu, Ruifeng Guo, Stan Z. Li"
     venue: "IJCAI, 2025."
-    # paper_pdf: "/assets/publications/cvpr25_sketchagent.pdf"
+    # paper_pdf: "/assets/publications/ijcai25_sketch.pdf"
     # code: ""
     selected: y
+  
+  # - title: "Multimodal Regression for Enzyme Turnover Rates Prediction"
+  #   authors: "Bozhen Hu<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Siyuan Li, Jiangbin Zheng, Jun Xia, Stan Z. Li"
+  #   venue: "IJCAI, 2025."
+  #   # paper_pdf: "/assets/publications/ijcai25_prokcat.pdf"
+  #   # code: ""
+  #   selected: y
 
   - title: "From Words to Structured Visuals: A Benchmark and Framework for Text-to-Diagram Generation and Editing"
     authors: "Jingxuan Wei<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Qi Chen, Gaowei Wu, Siyuan Li, Zhangyang Gao, Linzhuang Sun, Bihui Yu, Ruifeng Guo"
