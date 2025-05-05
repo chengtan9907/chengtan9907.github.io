@@ -1,5 +1,12 @@
 papers:
 
+# CNS
+
+  - title: "One-shot Cryo-EM Complex Structure Determination with High Accuracy and Ultra-fast Speed"
+    authors: "Jue Wang<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, GuiJun Zhang, Yang Zhang, Stan Z. Li"
+    venue: "Nature Machine Intelligence (accepted in princple), 2025."
+    selected: y
+
 # A
 
   - title: "USTEP: Spatio-Temporal Predictive Learning under A Unified View"
