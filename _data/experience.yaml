@@ -6,16 +6,16 @@ experiences:
   subtitle: "Computer Science and Technology <br/> Supervisor: Prof. Stan Z. Li"
   category: "school"
 
+- place: "Biomap"
+  time: "Dec 2024 - April 2025"
+  title: "Research on Antibody Design"
+  # subtitle: ""
+  category: "work"
+
 - place: "Tecent AI Lab"
   time: "Oct 2023 - Oct 2024"
   title: "Research on Controllable Protein Design"
   subtitle: "Supervisor: Dr. Fandi Wu"
-  category: "work"
-
-- place: "Biomap"
-  time: "Dec 2024 - "
-  title: "Research on Antibody Design"
-  # subtitle: ""
   category: "work"
 
 - place: "University of Alberta, Canada."

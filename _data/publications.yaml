@@ -35,54 +35,12 @@ papers:
     code: "https://huggingface.co/collections/DiagramAgent"
     selected: y
 
-  - title: "MergeVQ: A Unified Framework for Visual Generation and Representation with Disentangled Token Merging and Quantization"
-    authors: "Siyuan Li, Luyuan Zhang, Zedong Wang, Juanxi Tian, <b>Cheng Tan</b>, Zicheng Liu, Chang Yu, Qingsong Xie, Haonan Lu, Haoqian Wang, Zhen Lei"
-    venue: "CVPR, 2025."
-    # paper_pdf: ""
-    # code: ""
-    selected: n
-
-  - title: "DaCapo: Score Distillation as Stacked Bridge for Fast and High-quality 3D Editing"
-    authors: "Yufei Huang, Bangyan Liao, Yuqi Hu, Haitao Lin, Lirong Wu, Siyuan Li, <b>Cheng Tan</b>, Zicheng Liu, Yunfan Liu, Zelin Zang, Chang Yu, Zhen Lei"
-    venue: "CVPR, 2025."
-    # paper_pdf: ""
-    # code: ""
-    selected: n
-
   - title: "MeToken: Uniform Micro-environment Token Boosts Post-Translational Modification Prediction"
     authors: "<b>Cheng Tan</b>, Zhenxiao Cao, Zhangyang Gao, Lirong Wu, Siyuan Li, Yufei Huang, Jun Xia, Bozhen Hu, Stan Z. Li"
     venue: "ICLR, 2025."
     paper_pdf: "/assets/publications/iclr25_metoken.pdf"
     code: "https://github.com/A4Bio/MeToken"
     selected: y
-
-  - title: "EVA: Geometric Inverse Design for Fast Protein Motif-Scaffolding with Coupled Flow"
-    authors: "Yufei Huang, Yunshu Liu, Lirong Wu, Haitao Lin, <b>Cheng Tan</b>, Odin Zhang, Zhangyang Gao, Siyuan Li, Zicheng Liu, Yunfan Liu, Tailin Wu, Stan Z. Li"
-    venue: "ICLR, 2025."
-    # paper_pdf: ""
-    # code: ""
-    selected: n
-
-  - title: "ReNovo: Retrieval-Based De Novo Mass Spectrometry Peptide Sequencing"
-    authors: "Shaorong Chen, Jun Xia, Jingbo Zhou, Lecheng Zhang, Zhangyang Gao, Bozhen Hu, <b>Cheng Tan</b>, Wenjie Du, Stan Z. Li"
-    venue: "ICLR, 2025."
-    # paper_pdf: ""
-    # code: ""
-    selected: n
-
-  - title: "CBGBench: Fill in the Blank of Protein-Molecule Complex Binding Graph"
-    authors: "Haitao Lin, Guojiang Zhao, Odin Zhang, Yufei Huang, Lirong Wu, <b>Cheng Tan</b>, Zicheng Liu, Zhifeng Gao, Stan Z. Li"
-    venue: "ICLR, 2025."
-    # paper_pdf: ""
-    # code: ""
-    selected: n
-
-  - title: "An Empirical Study: Extensive Deep Temporal Point Process"
-    authors: "Haitao Lin, <b>Cheng Tan</b>, Lirong Wu, Zhangyang Gao, Zicheng Liu, Stan Z. Li"
-    venue: "TKDE, 2025."
-    # paper_pdf: ""
-    # code: ""
-    selected: n
 
   - title: "dyAb: Flow Matching for Flexible Antibody Design with AlphaFold-driven Pre-binding Antigen"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Yijie Zhang<sup>‡</sup>, Zhangyang Gao<sup>‡</sup>, Yufei Huang, Haitao Lin, Lirong Wu, Fandi Wu, Mathieu Blanchette, Stan Z. Li"
@@ -97,13 +55,6 @@ papers:
     paper_pdf: "/assets/publications/aaai25_foldtoken.pdf"
     code: "https://github.com/A4Bio/FoldGPT_open"
     selected: y
-
-  - title: "Relation-Aware Equivariant Graph Networks for Epitope-Unknown Antibody Design and Specificity Optimization"
-    authors: "Lirong Wu, Haitao Lin, Yufei Huang, Zhangyang Gao, <b>Cheng Tan</b>, Yunfan Liu, Tailin Wu, Stan Z. Li"
-    venue: "AAAI, 2025."
-    # paper_pdf: ""
-    # code: ""
-    selected: n
 
   - title: "SimVPv2: Towards Simple yet Powerful Spatiotemporal Predictive Learning"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Siyuan Li<sup>‡</sup>, Stan Z. Li"
@@ -133,11 +84,6 @@ papers:
     code: "https://github.com/A4Bio/ProteinInvBench"
     selected: y
 
-  - title: "Towards Robust \emph{De Novo} Peptide Sequencing in Proteomics against Data Biases"
-    authors: "Jun Xia, Shaorong Chen, Jingbo Zhou, Xiaojun Shan, Wenjie Du, Zhangyang Gao, <b>Cheng Tan</b>, Bozhen Hu, Jiangbin Zheng, Stan Z. Li"
-    venue: "NeurIPS, 2024."
-    selected: n
-
   - title: "Boosting the Power of Small Multimodal Reasoning Models to Match Larger Models with Self-Consistency Training"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Jingxuan Wei<sup>‡</sup>, Zhangyang Gao, Linzhuang Sun, Siyuan Li, Bihui Yu, Ruifeng Guo, Stan Z. Li"
     venue: "ECCV, 2024"
@@ -151,33 +97,6 @@ papers:
     paper_pdf: "/assets/publications/icml24_rfold.pdf"
     code: "https://github.com/A4Bio/RFold"
     selected: y
-
-  - title: "A Graph is Worth K Words: Euclideanizing Graph using Pure Transformer"
-    authors: "Zhangyang Gao, Daize Dong, <b>Cheng Tan</b>, Jun Xia, Bozhen Hu, Stan Z. Li"
-    venue: "ICML, 2024."
-    code: "https://github.com/A4Bio/GraphsGPT"
-    selected: n
-
-  - title: "Re-Dock: Towards Flexible and Realistic Molecular Docking with Diffusion Bridge"
-    authors: "Yufei Huang, Odin Zhang, Lirong Wu, <b>Cheng Tan</b>, Haitao Lin, Zhangyang Gao, Siyuan Li, Stan Z. Li"
-    venue: "ICML, 2024."
-    # code: "https://github.com/A4Bio/RFold"
-    selected: n
-
-  - title: "VQDNA: Unleashing the Power of Vector Quantization for Multi-Species Genomic Sequence Modeling"
-    authors: "Siyuan Li, Zedong Wang, Zicheng Liu, Di Wu, Cheng Tan, Jiangbin Zheng, Yufei Huang, Stan Z. Li"
-    venue: "ICML, 2024."
-    selected: n
-
-  - title: "General Point Model Pretraining with Autoencoding and Autoregressive"
-    authors: "Zhe Li, Zhangyang Gao, <b>Cheng Tan</b>, Bocheng Ren, Laurence Tianruo Yang, Stan Z. Li"
-    venue: "CVPR, 2024"
-    selected: n
-
-  - title: "MLIP: Enhancing Medical Visual Representation with Divergence Encoder and Knowledge-guided Contrastive Learning"
-    authors: "Zhe Li, Laurence Tianruo Yang, Bocheng Ren, Xin Nie Nie, Zhangyang Gao, <b>Cheng Tan</b>, Stan Z. Li"
-    venue: "CVPR, 2024"
-    selected: n
 
   - title: "A Survey on Generative Diffusion Model"
     authors: "Hanqun Cao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Yilun Xu, Guangyong Chen, Pheng-Ann Heng, Stan Z. Li"
@@ -200,39 +119,12 @@ papers:
     code: "https://github.com/A4Bio/RDesign"
     selected: y
 
-  - title: "SemiReward: A General Reward Model for Semi-supervised Learning"
-    authors: "Siyuan Li, Weiyang Jin, Zedong Wang, Fang Wu, Zicheng Liu, <b>Cheng Tan</b>, Stan Z. Li"
-    venue: "ICLR, 2024."
-    code: "https://github.com/Westlake-AI/SemiReward"
-    selected: n
-  
-  - title: "MogaNet: Multi-order Gated Aggregation Network"
-    authors: "Siyuan Li, Zedong Wang, Zicheng Liu, <b>Cheng Tan</b>, Haitao Lin, Di Wu, Zhiyuan Chen, Jiangbin Zheng, Stan Z. Li"
-    venue: "ICLR, 2024."
-    code: "https://github.com/Westlake-AI/MogaNet"
-    selected: n
-
-  - title: "Decoupling Weighing and Selecting for Integrating Multiple Graph Pre-training Tasks"
-    authors: "Tianyu Fan, Lirong Wu, Yufei Huang, Haitao Lin, <b>Cheng Tan</b>, Zhangyang Gao, Stan Z. Li"
-    venue: "ICLR, 2024."
-    selected: n
-
   - title: "Cross-Gate MLP with Protein Complex Invariant Embedding is A One-Shot Antibody Designer"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Lirong Wu, Jun Xia, Jiangbin Zheng, Xihong Yang, Yue Liu, Bozhen Hu, Stan Z. Li"
     venue: "AAAI, 2024."
     paper_pdf: "/assets/publications/aaai24_antibody.pdf"
     code: "https://github.com/A4Bio/ADesigner"
     selected: y
-
-  - title: "PSC-CPI: Multi-Scale Protein Sequence-Structure Contrasting for Efficient and Generalizable Compound-Protein Interaction Prediction"
-    authors: "Lirong Wu, Yufei Huang, <b>Cheng Tan</b>, Zhangyang Gao, Bozhen Hu, Haitao Lin, Zicheng Liu, Stan Z. Li"
-    venue: "AAAI, 2024."
-    selected: n
-
-  - title: "Wavelet-Driven Spatiotemporal Predictive Learning: Bridging Frequency and Time Variations"
-    authors: "Xuesong Nie, Yunfeng Yan, Siyuan Li, <b>Cheng Tan</b>, Xi Chen, Haoyuan Jin, Zhihang Zhu, Stan Z. Li, Donglian Qi."
-    venue: "AAAI, 2024."
-    selected: n
 
   - title: "OpenSTL: A Comprehensive Benchmark of Spatio-Temporal Predictive Learning"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Siyuan Li<sup>‡</sup>, Zhangyang Gao, Wenfei Guan, Zedong Wang, Zicheng Liu, Lirong Wu, Stan Z. Li"
@@ -248,31 +140,6 @@ papers:
     code: "https://github.com/A4Bio/ProteinInvBench"
     selected: y
 
-  - title: "Harnessing Hard Mixed Samples with Decoupled Regularizer"
-    authors: "Zicheng Liu<sup>‡</sup>, Siyuan Li<sup>‡</sup>, Ge Wang, Lirong Wu, <b>Cheng Tan</b>, Stan Z. Li"
-    venue: "NeurIPS, 2023."
-    paper_pdf: "/assets/publications/nips23_decoupled_mixup.pdf"
-    code: "https://github.com/Westlake-AI/openmixup"
-    selected: n
-
-  - title: "Understanding the Limitations of Deep Models for Molecular property prediction: Insights and Solutions"
-    authors: "Jun Xia, Lecheng Zhang, Xiao Zhu, Yue Liu, Zhangyang Gao, Bozhen Hu, <b>Cheng Tan</b>, Jiangbin Zheng, Siyuan Li, Stan Z. Li"
-    venue: "NeurIPS, 2023."
-    paper_pdf: "/assets/publications/nips23_ifm.pdf"
-    selected: n
-
-  - title: "CONVERT: Contrastive Graph Clustering with Reliable Augmentation"
-    authors: "Xihong Yang, <b>Cheng Tan</b>, Yue Liu, Ke Liang, Siwei Wang, Sihang Zhou, Jun Xia, Stan Z. Li, Xinwang Liu, En Zhu"
-    venue: "ACM MM, 2023."
-    paper_pdf: "/assets/publications/mm23_convert.pdf"
-    code: "https://github.com/xihongyang1999/CONVERT"
-    selected: y
-
-  - title: "GNN Cleaner: Label Cleaner for Graph Structured Data"
-    authors: "Jun Xia, Haitao Lin, Yongjie Xu, <b>Cheng Tan</b>, Lirong Wu, Yongjie Xu,  Siyuan Li, Stan Z. Li"
-    venue: "TKDE, 2023."
-    selected: n
-
   - title: "Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Lirong Wu, Yongjie Xu, Jun Xia, Siyuan Li, Stan Z. Li"
     venue: "CVPR, 2023."
@@ -280,26 +147,12 @@ papers:
     code: "https://github.com/chengtan9907/SimVPv2"
     selected: y
 
-  - title: "CVT-SLR: Contrastive Visual-Textual Transformation for Sign Language Recognition with Variational Alignment"
-    authors: "Jiangbin Zheng, Yile Wang, <b>Cheng Tan</b>, Siyuan Li, Ge Wang, Jun Xia, Yidong Chen, Stan Z. Li"
-    venue: "CVPR, 2023."
-    paper_pdf: "/assets/publications/cvpr23_cvt-slr.pdf"
-    code: "https://github.com/binbinjiang/CVT-SLR"
-    selected: n
-
   - title: "PiFold: Toward Effective and Efficient Protein Inverse Folding"
     authors: "Zhangyang Gao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Stan Z. Li"
     venue: "ICLR, 2023 (<b>Spotlight</b>)."
     paper_pdf: "/assets/publications/iclr23_pifold.pdf"
     code: "https://github.com/A4Bio/PiFold"
     selected: y
-
-  - title: "Mole-BERT: Rethinking Pre-training Graph Neural Networks for Molecules"
-    authors: "Jun Xia, Chengshuai Zhao, Bozhen Hu, Zhangyang Gao, <b>Cheng Tan</b>, Yue Liu, Siyuan Li, Stan Z. Li"
-    venue: "ICLR, 2023."
-    paper_pdf: "/assets/publications/iclr23_molbert.pdf"
-    code: "https://github.com/junxia97/Mole-BERT"
-    selected: n
 
   - title: "Hyperspherical Consistency Regularization"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Lirong Wu, Siyuan Li, Stan Z. Li"
@@ -328,120 +181,3 @@ papers:
     paper_pdf: "/assets/publications/tkde21_ssl.pdf"
     code: "https://github.com/LirongWu/awesome-graph-self-supervised-learning"
     selected: y
-
-# B
-  - title: "Complex hierarchical structures analysis in single-cell data with Poincaré deep manifold transformation"
-    authors: "Yongjie Xu, Zelin Zang, Bozhen Hu, <b>Cheng Tan</b>, Jun Xia, Stan Z. Li"
-    venue: "Briefings in Bioinformatics, 2024."
-    paper_pdf: ""
-    code: ""
-    selected: n
-
-  - title: "R3Design: Deep Tertiary Structure-based RNA Sequence Design and Beyond"
-    authors: "<b>Cheng Tan<sup>‡</sup></b>, Yijie Zhang<sup>‡</sup>, Zhangyang Gao<sup>‡</sup>, Siyuan Li, Siqi Ma, Mathieu Blanchette, Stan Z. Li"
-    venue: "Briefings in Bioinformatics, 2024."
-    paper_pdf: ""
-    code: "https://github.com/A4Bio/R3Design"
-    selected: n
-  
-  - title: "Learning to Model Graph Structural Information on MLPs via Graph Structure Self-Contrasting"
-    authors: "Lirong Wu, Haitao Lin, Guojiang Zhao, <b>Cheng Tan</b>, Stan Z. Li"
-    venue: "TNNLS: IEEE Transactions on Neural Networks and Learning Systems, 2024."
-    paper_pdf: "/assets/publications/tnnls24_gssc.pdf"
-    code: "https://github.com/LirongWu/GSSC"
-    selected: n
-
-  - title: "Enhancing Human-like Multi-Modal Reasoning: A New Challenging Dataset and Comprehensive Framework"
-    authors: "Jingxuan Wei, <b>Cheng Tan</b>, Zhangyang Gao, Linzhuang Sun, Siyuan Li, Bihui Yu, Ruifeng Guo, Stan Z. Li"
-    venue: "NCAA: Neural Computing and Applications, 2024."
-    paper_pdf: "/assets/publications/nca24_coco-mmr.pdf"
-    code: "https://github.com/weijingxuan/COCO-MMR"
-    selected: n
-
-  - title: "Interpretable and Generalizable Spatiotemporal Predictive Learning with Disentangled Consistency"
-    authors: "Jingxuan Wei<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao, Linzhuang Sun, Bihui Yu, Ruifeng Guo, Stan Z. Li"
-    venue: "ECML-PKDD, 2024."
-    paper_pdf: ""
-    code: ""
-    selected: n
-
-  - title: "Deep Manifold Transformation for Protein Representation Learning"
-    authors: "Bozhen Hu, Zelin Zang, <b>Cheng Tan</b>, Stan Z. Li"
-    venue: "ICASSP, 2024."
-    selected: n
-
-  - title: "Target-aware Molecular Graph Generation"
-    authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Stan Z. Li"
-    venue: "ECML-PKDD, 2023."
-    paper_pdf: "/assets/publications/ecml23_siamflow.pdf"
-    code: "https://github.com/A4Bio/"
-    selected: n
-
-  - title: "Learning to Augment Graph Structure for both Homophily and Heterophily Graphs"
-    authors: "Lirong Wu<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zihan Liu, Zhangyang Gao, Haitao Lin, Stan Z. Li"
-    venue: "ECML-PKDD, 2023."
-    paper_pdf: "/assets/publications/ecml23_l2a.pdf"
-    code: "https://github.com/LirongWu/"
-    selected: n
-
-  - title: "CoSP: Co-supervised Pre-training of pocket and ligand"
-    authors: "Zhangyang Gao<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Jun Xia, Stan Z. Li"
-    venue: "ECML-PKDD, 2023."
-    paper_pdf: "/assets/publications/ecml23_cosp.pdf"
-    code: "https://github.com/A4Bio/"
-    selected: n
-
-  - title: "Generative De Novo Protein Design with Global Context"
-    authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Jun Xia, Bozhen Hu, Stan Z. Li"
-    venue: "ICASSP, 2023."
-    paper_pdf: "/assets/publications/icassp23_gca.pdf"
-    code: "https://github.com/chengtan9907/Global-context-aware-generative-protein-design"
-    selected: n
-
-  - title: "Deep Manifold Graph Auto-Encoder for Attributed Graph Embedding"
-    authors: "Bozhen Hu, Zelin Zang, Jun Xia, Lirong Wu, <b>Cheng Tan</b>, Stan Z. Li"
-    venue: "ICASSP, 2023."
-    paper_pdf: "/assets/publications/icassp23_dmvage.pdf"
-    selected: n
-
-  - title: "WordReg: Mitigating the Gap between Training and Inference with Worst-case Drop Regularization"
-    authors: "Jun Xia, Ge Wang, Bozhen Hu, <b>Cheng Tan</b>, Jiangbin Zheng, Yongjie Xu, Stan Z. Li"
-    venue: "ICASSP, 2023."
-    paper_pdf: "/assets/publications/icassp23_wordreg.pdf"
-    selected: n
-
-  - title: "OT Cleaner: Label Correction as Optimal Transport"
-    authors: "Jun Xia<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Lirong Wu, Yongjie Xu, Stan Z. Li"
-    venue: "ICASSP, 2022."
-    paper_pdf: "/assets/publications/icassp22_otcleaner.pdf"
-    code: "https://github.com/junxia97/OT-Cleaner"
-    selected: n
-
-  - title: "Beyond Homophily and Homogeneity Assumption: Relation-based Frequency Adaptive Graph Neural Networks"
-    authors: "Lirong Wu, Haitao Lin, Bozhen Hu, Zhangyang Gao, Cheng Tan, Zicheng Liu, Stan Z. Li"
-    venue: "TNNLS: IEEE Transactions on Neural Networks and Learning Systems, 2022."
-    code: "https://github.com/LirongWu/RFA-GNN"
-    selected: n
-
-  - title: "GraphMixup: Improving Class-Imbalanced Node Classification by Reinforcement Mixup and Self-supervised Context Prediction"
-    authors: "Lirong Wu, Jun Xia, Zhangyang Gao, Haitao Lin, <b>Cheng Tan</b>, Stan Z. Li"
-    venue: "ECML-PKDD, 2022."
-    paper_pdf: "/assets/publications/ecml22_graphmixup.pdf"
-    code: "https://github.com/LirongWu/GraphMixup"
-    selected: n
-
-  - title: "Multi-level disentanglement graph neural network"
-    authors: "Lirong Wu, Haitao Lin, Jun Xia, <b>Cheng Tan</b>, Stan Z. Li"
-    venue: "NCAA: Neural Computing and Applications, 2022."
-    paper_pdf: "/assets/publications/nca22_mdgnn.pdf"
-    code: "https://github.com/LirongWu/MD-GNN"
-    selected: n
-
-# Other
-
-  - title: "Structure-Preserving and Batch-Correcting Visualization Using Deep Manifold Transformation for Single-cell RNA-Seq Profiles"
-    authors: "Yongjie Xu, Zelin Zang, Jun Xia, <b>Cheng Tan</b>, Yulan Geng, Stan Z Li"
-    venue: "Communication Biology, 2023."
-    paper_pdf: "/assets/publications/cb23_dmt.pdf"
-    code: "https://github.com/Westlake-AI/DV"
-    selected: n
