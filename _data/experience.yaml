@@ -1,16 +1,16 @@
 experiences:
 
+- place: "Shanghai AI Laboratory"
+  time: "July 2025 - Present"
+  title: "Researcher"
+  # subtitle: "Computer Science and Technology <br/> Supervisor: Prof. Stan Z. Li"
+  category: "work"
+
 - place: "Zhejiang University & Westlake University"
-  time: "Sept 2021 - present"
+  time: "Sept 2021 - June 2025"
   title: "Ph.D. Student"
   subtitle: "Computer Science and Technology <br/> Supervisor: Prof. Stan Z. Li"
   category: "school"
-
-- place: "Biomap"
-  time: "Dec 2024 - April 2025"
-  title: "Research on Antibody Design"
-  # subtitle: ""
-  category: "work"
 
 - place: "Tecent AI Lab"
   time: "Oct 2023 - Oct 2024"
