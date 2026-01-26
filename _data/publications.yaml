@@ -12,10 +12,16 @@ papers:
     authors: "Jue Wang<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, GuiJun Zhang, Yang Zhang, Stan Z. Li*"
     venue: "Nature Machine Intelligence, 2025."
     paper_pdf: "/assets/publications/nmi25_cryoem.pdf"
-    code: "E3-CryoFold"
+    code: "https://github.com/A4Bio/E3-CryoFold"
     selected: y
 
 # A
+  - title: "Lost in Tokenization: Context as the Key to Unlocking Biomolecular Understanding in Scientific LLMs"
+    authors: "Kai Zhuang, Jiawei Zhang, Yumou Liu, Hanqun Cao, Chunbin Gu, Mengdi Liu, Zhangyang Gao, Zitong Jerry Wang, Xuanhe Zhou, Pheng-Ann Heng, Lijun Wu, Conghui He, <b>Cheng Tan*</b>"
+    venue: "ICLR, 2026."
+    paper_pdf: "/assets/publications/iclr26_coke.pdf"
+    code: "https://github.com/OpenRaiser/CoKE"
+    selected: y
 
   - title: "AlphaFold Database Debiasing for Robust Inverse Folding"
     authors: "<b>Cheng Tan<sup>‡</sup></b>, Zhenxiao Cao<sup>‡</sup>, Zhangyang Gao, Siyuan Li, Yufei Huang, Stan Z. Li "
