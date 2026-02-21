@@ -16,6 +16,27 @@ papers:
     selected: y
 
 # A
+  - title: "Decouple to Generalize: Context-First Self-Evolving Learning for Data-Scarce Vision-Language Reasoning"
+    authors: "Tingyu Li, Zheng Sun, Jingxuan Wei, Siyuan Li, Conghui He, Lijun Wu, <b>Cheng Tan*</b>"
+    venue: "CVPR, 2026."
+    paper_pdf: "/assets/publications/cvpr26_doge.pdf"
+    code: "https://github.com/OpenRaiser/DoGe"
+    selected: y
+
+  - title: "GGBench: A Geometric Generative Reasoning Benchmark for Unified Multimodal Models"
+    authors: "Jingxuan Wei, Caijun Jia, Xi Bai, Xinglong Xu, Siyuan Li, Linzhuang Sun, Bihui Yu, Conghui He, Lijun Wu, <b>Cheng Tan*</b>"
+    venue: "CVPR, 2026."
+    paper_pdf: "/assets/publications/cvpr26_ggbench.pdf"
+    code: "https://github.com/OpenRaiser/GGBench"
+    selected: y
+
+  - title: "Geoint-R1: Formalizing Multimodal Geometric Reasoning with Dynamic Auxiliary Constructions"
+    authors: "Jingxuan Wei, Caijun Jia, Qi Chen, Honghao He, Linzhuang Sun, Conghui He, Lijun Wu, Bihui Yu, <b>Cheng Tan*</b>"
+    venue: "CVPR, 2026."
+    paper_pdf: "/assets/publications/cvpr26_geoint-r1.pdf"
+    code: "https://huggingface.co/datasets/OpenRaiser/Geoint"
+    selected: y
+
   - title: "Lost in Tokenization: Context as the Key to Unlocking Biomolecular Understanding in Scientific LLMs"
     authors: "Kai Zhuang, Jiawei Zhang, Yumou Liu, Hanqun Cao, Chunbin Gu, Mengdi Liu, Zhangyang Gao, Zitong Jerry Wang, Xuanhe Zhou, Pheng-Ann Heng, Lijun Wu, Conghui He, <b>Cheng Tan*</b>"
     venue: "ICLR, 2026."
