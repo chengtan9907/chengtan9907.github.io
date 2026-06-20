@@ -1,30 +1,38 @@
 experiences:
 
-- place: "Shanghai AI Laboratory"
+- place: "Shanghai Artificial Intelligence Laboratory"
+  key: "shanghai-ai-lab"
   time: "July 2025 - Present"
   title: "Researcher"
   # subtitle: "Computer Science and Technology <br/> Supervisor: Prof. Stan Z. Li"
   category: "work"
 
 - place: "Zhejiang University & Westlake University"
+  key: "zju-westlake"
+  boundary_before: y
   time: "Sept 2021 - June 2025"
   title: "Ph.D. Student"
   subtitle: "Computer Science and Technology <br/> Supervisor: Prof. Stan Z. Li"
   category: "school"
 
-- place: "Tecent AI Lab"
+- place: "Tencent AI Lab"
+  key: "tencent-ai-lab"
+  embed_parent: "zju-westlake"
   time: "Oct 2023 - Oct 2024"
   title: "Research on Controllable Protein Design"
   subtitle: "Supervisor: Dr. Fandi Wu"
   category: "work"
 
 - place: "University of Alberta, Canada."
+  key: "university-alberta"
+  embed_parent: "nwsuaf"
   time: "July 2019 - Oct 2019"
   title: "Research Assistant"
   subtitle: "Artificial General Intelligence Lab <br/> Prof. Vadim Bulitko (Professor, Computer Science) <br/> Prof. Erin Bayne (Professor, Biology) <br/>"
   category: "school"
 
 - place: "Northwest A&F University"
+  key: "nwsuaf"
   time: "Sept 2017 - June 2021"
   title: "B.Sc. Student"
   subtitle: "Computer Science and Technology"

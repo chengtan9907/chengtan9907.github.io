@@ -1,8 +1,12 @@
 name: "Cheng Tan"
-title: "Researcher, Shanghai AI Laboratory"
+chinese_name: "谭铖"
+title: "Researcher, Shanghai Artificial Intelligence Laboratory"
 email: "chengtan9907 [AT] gmail.com"
+description: "Researcher at Shanghai Artificial Intelligence Laboratory. Research interests include multimodal reasoning and AI for science."
 profile_pic: "/assets/profile-pics/cheng_tan_2.jpg"
 twitter: "https://twitter.com/chengtan9907"
+# linkedin: ""
 github: "https://github.com/chengtan9907"
 google_scholar: "https://scholar.google.com/citations?user=6kTV6aMAAAAJ&hl=en"
+xiaohongshu: "https://www.xiaohongshu.com/user/profile/5e09880c00000000010003fc"
 # google_analystics_tracking_id: 'UA-46778883-1'

@@ -1,0 +1,66 @@
+<div class="paper">
+  {% assign paper_authors = include.paper.authors | default: include.paper.author %}
+  {% assign venue_text = include.paper.venue | replace: " (<b>Oral</b>)", "" | replace: " (<b>Spotlight</b>)", "" | replace: " (<b>Highlight</b>)", "" %}
+  {% assign has_venue_tag = false %}
+  {% if include.paper.venue contains "Oral" or include.paper.venue contains "Spotlight" or include.paper.venue contains "Highlight" %}
+    {% assign has_venue_tag = true %}
+  {% endif %}
+  <p class="title"><b>{{ include.paper.title }}</b></p>
+  <p>{{ paper_authors }}</p>
+  {% if include.paper.venue and include.paper.venue != "" %}
+    <p class="paper-venue">
+      <i>{{ venue_text }}</i>
+      {% if has_venue_tag %}
+        {% if include.paper.venue contains "Oral" %}
+          <span class="paper-tag paper-tag-venue">Oral</span>
+        {% endif %}
+        {% if include.paper.venue contains "Spotlight" %}
+          <span class="paper-tag paper-tag-venue">Spotlight</span>
+        {% endif %}
+        {% if include.paper.venue contains "Highlight" %}
+          <span class="paper-tag paper-tag-venue">Highlight</span>
+        {% endif %}
+      {% endif %}
+    </p>
+  {% endif %}
+  {% if include.paper.tags %}
+    <div class="paper-tags">
+      {% for tag in include.paper.tags %}
+        {% assign tag_class = "paper-tag" %}
+        {% if tag.variant %}
+          {% assign tag_class = tag_class | append: " paper-tag-" | append: tag.variant %}
+        {% endif %}
+        {% if tag.url %}
+          <a class="{{ tag_class }}" href="{{ tag.url }}" target="_blank" rel="noopener">{{ tag.text }}</a>
+        {% else %}
+          <span class="{{ tag_class }}">{{ tag.text }}</span>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+  <div class="paper-buttons">
+    {% if include.paper.paper_pdf and include.paper.paper_pdf != "" %}
+      <a class="button" href="{{ include.paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+    {% endif %}
+
+    {% if include.paper.slides and include.paper.slides != "" %}
+      <a class="button" href="{{ include.paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+    {% endif %}
+
+    {% if include.paper.poster and include.paper.poster != "" %}
+      <a class="button" href="{{ include.paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+    {% endif %}
+
+    {% if include.paper.video and include.paper.video != "" %}
+      <a class="button" href="{{ include.paper.video }}" target="_blank">Video</a>
+    {% endif %}
+
+    {% if include.paper.code and include.paper.code != "" %}
+      <a class="button" href="{{ include.paper.code }}" target="_blank">Code</a>
+    {% endif %}
+
+    {% if include.paper.data and include.paper.data != "" %}
+      <a class="button" href="{{ include.paper.data }}" target="_blank">Data</a>
+    {% endif %}
+  </div>
+</div>

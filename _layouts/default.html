@@ -5,14 +5,16 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>{{ site.data.main_info.name }} | {{ page.title }}</title>
-  <meta name="description" content="Martin Saveski">
-  <meta name="author" content="Martin Saveski">
-  <meta property="og:title" content="Martin Saveski" />
+  {% capture page_title_name %}{{ site.data.main_info.name }}{% if site.data.main_info.chinese_name and site.data.main_info.chinese_name != "" %} ({{ site.data.main_info.chinese_name }}){% endif %}{% endcapture %}
+  <title>{{ page_title_name }}</title>
+  <meta name="description" content="{{ site.data.main_info.description }}">
+  <meta name="author" content="{{ site.data.main_info.name }}">
+  <meta property="og:title" content="{{ page_title_name }}" />
+  <meta property="og:description" content="{{ site.data.main_info.description }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://www.martinsaveski.com" />
-  <meta property="og:site_name" content="Martin Saveski" />
-  <link rel="canonical" href="http://www.martinsaveski.com" />
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace: 'index.html', '' }}" />
+  <meta property="og:site_name" content="{{ site.data.main_info.name }}" />
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace: 'index.html', '' }}" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -72,25 +74,39 @@
           <a href="{{ site.baseurl }}/"><img class="u-max-full-width" src='{{ site.baseurl }}{{ site.data.main_info.profile_pic }}'></a>
         </div>
         <div class="nine columns main-description">
-            <h1>{{ site.data.main_info.name }}</h1>
+            <h1>{{ site.data.main_info.name }}{% if site.data.main_info.chinese_name and site.data.main_info.chinese_name != "" %} {{ site.data.main_info.chinese_name }}{% endif %}</h1>
             <p>{{ site.data.main_info.title }}</p>
             <p>{{ site.data.main_info.email }}</p>
-            <p>
-              <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
+            <p class="social-links">
+              {% if site.data.main_info.twitter and site.data.main_info.twitter != "" %}
+              <a href="{{ site.data.main_info.twitter }}" target="_blank" rel="noopener" aria-label="Twitter">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
-              </span>
+              </a>
+              {% endif %}
 
-              <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
+              {% if site.data.main_info.linkedin and site.data.main_info.linkedin != "" %}
+              <a href="{{ site.data.main_info.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn">
                 <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-              </span>
+              </a>
+              {% endif %}
 
-              <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
+              {% if site.data.main_info.github and site.data.main_info.github != "" %}
+              <a href="{{ site.data.main_info.github }}" target="_blank" rel="noopener" aria-label="GitHub">
                 <i class="fa fa-github" aria-hidden="true"></i>
-              </span>
+              </a>
+              {% endif %}
 
-              <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
+              {% if site.data.main_info.google_scholar and site.data.main_info.google_scholar != "" %}
+              <a href="{{ site.data.main_info.google_scholar }}" target="_blank" rel="noopener" aria-label="Google Scholar">
                 <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
-              </span>
+              </a>
+              {% endif %}
+
+              {% if site.data.main_info.xiaohongshu and site.data.main_info.xiaohongshu != "" %}
+              <a href="{{ site.data.main_info.xiaohongshu }}" target="_blank" rel="noopener" aria-label="Xiaohongshu">
+                <span class="xhs-icon" aria-hidden="true">RED</span>
+              </a>
+              {% endif %}
             </p>
         </div>
       </div>
@@ -103,8 +119,7 @@
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#bio" | prepend: site.baseurl }}>Bio</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#news" | prepend: site.baseurl }}>News</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#services" | prepend: site.baseurl }}>Service</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#talks" | prepend: site.baseurl }}>Talks</a></li>
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#service" | prepend: site.baseurl }}>Service</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>Vita</a></li>
         </ul>
       </div>
@@ -120,19 +135,32 @@
         <div class="four columns">
           {{ site.data.main_info.email }}
         </div>
-        <div class="four columns">
-          <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
+        <div class="four columns social-links">
+          {% if site.data.main_info.twitter and site.data.main_info.twitter != "" %}
+          <a href="{{ site.data.main_info.twitter }}" target="_blank" rel="noopener" aria-label="Twitter">
             <i class="fa fa-twitter" aria-hidden="true"></i>
-          </span>
-          <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
+          </a>
+          {% endif %}
+          {% if site.data.main_info.linkedin and site.data.main_info.linkedin != "" %}
+          <a href="{{ site.data.main_info.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn">
             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-          </span>
-          <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
+          </a>
+          {% endif %}
+          {% if site.data.main_info.github and site.data.main_info.github != "" %}
+          <a href="{{ site.data.main_info.github }}" target="_blank" rel="noopener" aria-label="GitHub">
             <i class="fa fa-github" aria-hidden="true"></i>
-          </span>
-          <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
+          </a>
+          {% endif %}
+          {% if site.data.main_info.google_scholar and site.data.main_info.google_scholar != "" %}
+          <a href="{{ site.data.main_info.google_scholar }}" target="_blank" rel="noopener" aria-label="Google Scholar">
             <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
-          </span>
+          </a>
+          {% endif %}
+          {% if site.data.main_info.xiaohongshu and site.data.main_info.xiaohongshu != "" %}
+          <a href="{{ site.data.main_info.xiaohongshu }}" target="_blank" rel="noopener" aria-label="Xiaohongshu">
+            <span class="xhs-icon" aria-hidden="true">RED</span>
+          </a>
+          {% endif %}
         </div>
       </div>
     </div>

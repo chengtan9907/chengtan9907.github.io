@@ -3,7 +3,7 @@ papers:
 # CNS
 
   - title: "Illuminating Cell States by A Comprehensive and Interpretable Single Cell Foundation Model"
-    authors: "Jue Wang<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao<sup>‡</sup>, Sida Shao, Shiping Liu, Stan Z. Li*"
+    authors: "Jue Wang<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Zhangyang Gao, Sida Shao, Shiping Liu, Stan Z. Li*"
     venue: "Nature Communications, 2026."
     paper_pdf: "https://www.nature.com/articles/s41467-026-70071-5.pdf"
     code: "https://github.com/A4Bio/ChrisCell"
@@ -23,30 +23,32 @@ papers:
     code: "https://github.com/A4Bio/E3-CryoFold"
     selected: y
 
-# A
-  - title: "CA-DEL: An Open Multi-Target, Multi-Modal Benchmark for Learning from DNA-Encoded Library Screens"
-    authors: "Mutian He, Hanqun Cao, <b>Cheng Tan</b>, Zijun Gao, Xiaojun Yao, Chunbin Gu, Pheng-Ann Heng*"
-    venue: "KDD, 2026 (<b>Oral</b>)."
-    paper_pdf: "https://arxiv.org/pdf/2605.07439"
-    selected: n
+# arXiv
+  - title: "The Trinity of Consistency as a Defining Principle for General World Models"
+    author: "Jingxuan Wei, Siyuan Li, Yuhang Xu, Zheng Sun, Junjie Jiang, Hexuan Jin, Caijun Jia, Honghao He, Xinglong Xu, Chang Yu, Yumou Liu, Junnan Zhu, Xuanhe Zhou, Jintao Chen, Xiaobin Hu, Shancheng Pang, Bihui Yu, Ran He, Zhen Lei, Stan Z Li, Conghui He, Shuicheng Yan*, <b>Cheng Tan*</b>"
+    venue: ""
+    paper_pdf: "https://arxiv.org/pdf/2602.23152"
+    code: "https://github.com/OpenRaiser/awesome-world-model-evolution"
+    tags:
+      - text: "Hugging Face #1 Paper of the Day"
+        url: "https://huggingface.co/papers/2602.23152"
+        variant: highlight
+      - text: "Hugging Face 40k+ downloads"
+        url: "https://huggingface.co/datasets/OpenRaiser/CoW-Bench"
+        variant: highlight
+    selected: y
 
+# A
   - title: "How RL Unlocks the Aha Moment in Geometric Interleaved Reasoning"
     authors: "Xiangxiang Zhang, Caijun Jia, Siyuan Li, He Dingyu, Xiya Xiong, Zheng Sun, Honghao He, Yuchen Wu, Bihui Yu, Linzhuang Sun, <b>Cheng Tan*</b>, Jingxuan Wei*"
     venue: "ICML, 2026 (<b>Spotlight</b>)."
     paper_pdf: "https://arxiv.org/pdf/2603.01070"
     selected: y
 
-  - title: "Chain-of-Thought Compression Should Not Be Blind: V-Skip for Efficient Multimodal Reasoning via Dual-Path Anchoring"
-    authors: "Dongxu Zhang<sup>‡</sup>, Yiding Sun<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Wenbiao Yan, Ning Yang*, Jihua Zhu*, Haijun Zhang*"
-    venue: "ACL, 2026."
-    paper_pdf: "https://arxiv.org/pdf/2601.13879"
-    code: "https://dongxu-zhang.github.io/v-skip.github.io/"
-    selected: n
-
   - title: "Decouple to Generalize: Context-First Self-Evolving Learning for Data-Scarce Vision-Language Reasoning"
     authors: "Tingyu Li, Zheng Sun, Jingxuan Wei, Siyuan Li, Conghui He, Lijun Wu, <b>Cheng Tan*</b>"
     venue: "CVPR, 2026."
-    paper_pdf: "/assets/publications/cvpr26_doge.pdf"
+    paper_pdf: "/assets/publications/cpvr26_doge.pdf"
     code: "https://github.com/OpenRaiser/DoGe"
     selected: y
 
@@ -76,12 +78,6 @@ papers:
     venue: "NeurIPS, 2025."
     paper_pdf: "/assets/publications/nips25_desae.pdf"
     selected: y
-
-  - title: "ProtInvTree: Deliberate Protein Inverse Folding with Reward-guided Tree Search"
-    authors: "Mengdi Liu, Xiaoxue Cheng, Zhangyang Gao, Hong Chang, <b>Cheng Tan</b>, Shiguang Shan, Xilin Chen*"
-    venue: "NeurIPS, 2025 (<b>Spotlight</b>)."
-    paper_pdf: "/assets/publications/nips25_protinvtree.pdf"
-    selected: n
 
   - title: "ResearchPulse: Building Method-Experiment Chains through Multi-Document Scientific Inference"
     authors: "Qi Chen, Jingxuan Wei, Zhuoya Yao, Haiguang Wang, Gaowei Wu, Bihui Yu, Siyuan Li, <b>Cheng Tan*</b>"
@@ -186,6 +182,12 @@ papers:
     venue: "TKDE, 2024."
     paper_pdf: "/assets/publications/tkde23_gdm.pdf"
     code: "https://github.com/chq1155/A-Survey-on-Generative-Diffusion-Model"
+    tags:
+      - text: "Google Scholar 1000+ citations"
+        variant: highlight
+      - text: "GitHub 900+ stars"
+        url: "https://github.com/chq1155/A-Survey-on-Generative-Diffusion-Model"
+        variant: highlight
     selected: y
 
   - title: "RDesign: Hierarchical Data-efficient Representation Learning for Tertiary Structure-based RNA Design"
@@ -214,6 +216,11 @@ papers:
     venue: "NeurIPS, 2023."
     paper_pdf: "/assets/publications/nips23_openstl.pdf"
     code: "https://github.com/chengtan9907/OpenSTL"
+    tags:
+      - text: "Google Scholar 100+ citations"
+      - text: "GitHub 1000+ stars"
+        url: "https://github.com/chengtan9907/OpenSTL"
+        variant: highlight
     selected: y
 
   - title: "Proteininvbench: Benchmarking Protein Inverse Folding on Diverse Tasks, Models, and Metrics"
@@ -221,6 +228,9 @@ papers:
     venue: "NeurIPS, 2023."
     paper_pdf: "/assets/publications/nips23_protein_inv_bench.pdf"
     code: "https://github.com/A4Bio/ProteinInvBench"
+    tags:
+      - text: "GitHub 200+ stars"
+        url: "https://github.com/A4Bio/ProteinInvBench"
     selected: y
 
   - title: "Temporal Attention Unit: Towards Efficient Spatiotemporal Predictive Learning"
@@ -228,6 +238,8 @@ papers:
     venue: "CVPR, 2023."
     paper_pdf: "/assets/publications/cvpr23_tau.pdf"
     code: "https://github.com/chengtan9907/SimVPv2"
+    tags:
+      - text: "Google Scholar 300+ citations"
     selected: y
 
   - title: "PiFold: Toward Effective and Efficient Protein Inverse Folding"
@@ -235,6 +247,10 @@ papers:
     venue: "ICLR, 2023 (<b>Spotlight</b>)."
     paper_pdf: "/assets/publications/iclr23_pifold.pdf"
     code: "https://github.com/A4Bio/PiFold"
+    tags:
+      - text: "Google Scholar 200+ citations"
+      - text: "GitHub 100+ stars"
+        url: "https://github.com/A4Bio/PiFold"
     selected: y
 
   - title: "Hyperspherical Consistency Regularization"
@@ -249,6 +265,10 @@ papers:
     venue: "CVPR, 2022."
     paper_pdf: "/assets/publications/cvpr22_simvp.pdf"
     code: "https://github.com/gaozhangyang/SimVP-Simpler-yet-Better-Video-Prediction"
+    tags:
+      - text: "Google Scholar 600+ citations"
+      - text: "GitHub 200+ stars"
+        url: "https://github.com/A4Bio/SimVP"
     selected: y
 
   - title: "Co-learning: Learning from Noisy Labels with Self-supervision"
@@ -256,6 +276,10 @@ papers:
     venue: "ACM MM, 2021 (<b>Oral</b>)."
     paper_pdf: "/assets/publications/mm21_colearning.pdf"
     code: "https://github.com/chengtan9907/Co-learning-Learning-from-noisy-labels-with-self-supervision"
+    tags:
+      - text: "Google Scholar 200+ citations"
+      - text: "GitHub 100+ stars"
+        url: "https://github.com/chengtan9907/Co-learning"
     selected: y
 
   - title: "Self-supervised Learning on Graphs: Contrastive, Generative, or Predictive"
@@ -263,4 +287,6 @@ papers:
     venue: "TKDE, 2021."
     paper_pdf: "/assets/publications/tkde21_ssl.pdf"
     code: "https://github.com/LirongWu/awesome-graph-self-supervised-learning"
+    tags:
+      - text: "Google Scholar 400+ citations"
     selected: y
