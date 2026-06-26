@@ -32,10 +32,28 @@ papers:
     tags:
       - text: "Hugging Face #1 Paper of the Day"
         url: "https://huggingface.co/papers/2602.23152"
-        variant: highlight
+        variant: blue
       - text: "Hugging Face 40k+ downloads"
         url: "https://huggingface.co/datasets/OpenRaiser/CoW-Bench"
-        variant: highlight
+        variant: blue
+    selected: y
+
+  - title: "ODesign: A World Model for Biomolecular Interaction Design"
+    author: "Odin Zhang<sup>‡</sup>, Xujun Zhang<sup>‡</sup>, Haitao Lin<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Qinghan Wang<sup>‡</sup>, Yuanle Mo<sup>‡</sup>, Qiantai Feng<sup>‡</sup>, Gang Du, Yuntao Yu, Zichang Jin, Ziyi You, Peicong Lin, Yijie Zhang, Yuyang Tao, Shicheng Chen, Jack Xiaoyu Chen, Chenqing Hua, Weibo Zhao, Runze Ma, Yunpeng Xia, Kejun Ying, Jun Li, Yundian Zeng, Lijun Lang, Peichen Pan, Hanqun Cao, Zihao Song, Bo Qiang, Jiaqi Wang, Pengfei Ji, Lei Bai, Jian Zhang, Chang-yu Hsieh, Pheng Ann Heng*, Siqi Sun*, Tingjun Hou*, Shuangjia Zheng*"
+    paper_pdf: "https://arxiv.org/pdf/2510.22304"
+    code: "https://github.com/OTeam-AI4S/ODesign"
+    tags:
+      - text: "A World Model for Biomolecular Interaction Design"
+        variant: yellow
+    selected: y
+
+  - title: "StructVRM: Aligning Multimodal Reasoning with Structured and Verifiable Reward Models"
+    author: "Xiangxiang Zhang*, Jingxuan Wei*, Donghong Zhong, Qi Chen, Caijun Jia, Cheng Tan*, Jinming Gu, Xiaobo Qin, Zhiping Liu, Liang Hu, Tong Sun, Yuchen Wu, Zewei Sun, Chenwei Lou, Hua Zheng, Tianyang Zhan, Changbao Wang, Shuangzhi Wu, Zefa Lin, Chang Guo, Sihang Yuan, Riwei Chen, Shixiong Zhao, Yingping Zhang, Gaowei Wu, Bihui Yu, Jiahui Wu, Zhehui Zhao, Qianqian Liu, Ruofeng Tang, Xingyue Huang, Bing Zhao, Mengyang Zhang, Youqiang Zhou"
+    paper_pdf: "https://arxiv.org/pdf/2508.05383"
+    tags:
+      - text: "ByteDance Seed"
+        url: "https://github.com/ByteDance-Seed"
+        variant: yellow
     selected: y
 
 # A
@@ -43,6 +61,10 @@ papers:
     authors: "Xiangxiang Zhang, Caijun Jia, Siyuan Li, He Dingyu, Xiya Xiong, Zheng Sun, Honghao He, Yuchen Wu, Bihui Yu, Linzhuang Sun, <b>Cheng Tan*</b>, Jingxuan Wei*"
     venue: "ICML, 2026 (<b>Spotlight</b>)."
     paper_pdf: "https://arxiv.org/pdf/2603.01070"
+    tags:
+      - text: "ByteDance Seed"
+        url: "https://github.com/ByteDance-Seed"
+        variant: yellow
     selected: y
 
   - title: "Decouple to Generalize: Context-First Self-Evolving Learning for Data-Scarce Vision-Language Reasoning"
@@ -153,7 +175,7 @@ papers:
     authors: "Bozhen Hu<sup>‡</sup>, <b>Cheng Tan<sup>‡</sup></b>, Yongjie Xu, Zhangyang Gao, Jun Xia, Lirong Wu, Stan Z. Li*"
     venue: "NeurIPS, 2024."
     paper_pdf: "/assets/publications/nips24_protgo.pdf"
-    code: ""
+    code: "https://github.com/bozhenhhu/ProtGO"
     selected: y
 
   - title: "UniIF: Unified Molecule Inverse Folding"
@@ -184,10 +206,10 @@ papers:
     code: "https://github.com/chq1155/A-Survey-on-Generative-Diffusion-Model"
     tags:
       - text: "Google Scholar 1000+ citations"
-        variant: highlight
+        variant: blue
       - text: "GitHub 900+ stars"
         url: "https://github.com/chq1155/A-Survey-on-Generative-Diffusion-Model"
-        variant: highlight
+        variant: blue
     selected: y
 
   - title: "RDesign: Hierarchical Data-efficient Representation Learning for Tertiary Structure-based RNA Design"
@@ -220,7 +242,7 @@ papers:
       - text: "Google Scholar 100+ citations"
       - text: "GitHub 1000+ stars"
         url: "https://github.com/chengtan9907/OpenSTL"
-        variant: highlight
+        variant: blue
     selected: y
 
   - title: "Proteininvbench: Benchmarking Protein Inverse Folding on Diverse Tasks, Models, and Metrics"

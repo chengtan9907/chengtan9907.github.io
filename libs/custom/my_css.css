@@ -97,13 +97,43 @@ h4 {
 a.paper-tag:hover {
   background: #f0f0f0;
   color: #444; }
+.paper-tag-gray {
+  background: #f4f4f5;
+  border-color: #dedee3;
+  color: #52525b; }
+a.paper-tag-gray:hover {
+  background: #ececf0;
+  color: #3f3f46; }
+.paper-tag-blue,
 .paper-tag-highlight {
   background: #e4f1ff;
   border-color: #b9d7f2;
   color: #245f8f; }
+a.paper-tag-blue:hover,
 a.paper-tag-highlight:hover {
   background: #d8eaff;
   color: #1e557f; }
+.paper-tag-yellow {
+  background: #fff7d6;
+  border-color: #f1d98a;
+  color: #7a5a00; }
+a.paper-tag-yellow:hover {
+  background: #ffefb0;
+  color: #654a00; }
+.paper-tag-red {
+  background: #ffe9e7;
+  border-color: #f3b9b3;
+  color: #9a3d35; }
+a.paper-tag-red:hover {
+  background: #ffd9d5;
+  color: #7f332d; }
+.paper-tag-green {
+  background: #e9f8ee;
+  border-color: #b9dfc6;
+  color: #2f6f44; }
+a.paper-tag-green:hover {
+  background: #dcf2e4;
+  color: #285d3a; }
 .paper-tag-venue {
   background: #eef7ff;
   border-color: #cfe4f8;
