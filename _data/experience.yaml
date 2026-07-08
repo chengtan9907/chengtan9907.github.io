@@ -1,10 +1,15 @@
 experiences:
 
+- place: "Tencent"
+  key: "tencent"
+  time: "July 2026 - Present"
+  title: "Principal Researcher"
+  category: "work"
+
 - place: "Shanghai Artificial Intelligence Laboratory"
   key: "shanghai-ai-lab"
-  time: "July 2025 - Present"
+  time: "July 2025 - July 2026"
   title: "Researcher"
-  # subtitle: "Computer Science and Technology <br/> Supervisor: Prof. Stan Z. Li"
   category: "work"
 
 - place: "Zhejiang University & Westlake University"

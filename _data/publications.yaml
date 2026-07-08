@@ -24,6 +24,17 @@ papers:
     selected: y
 
 # arXiv
+  - title: "OmniOpt: Taxonomy, Geometry, and Benchmarking of Modern Optimizers"
+    author: "Siyuan Li, Jiabao Pan, Yumou Liu, Zhuoli Ouyang, Xin Jin, Xinglong Xu, Jingxuan Wei, Shengye Pang, Jintao Chen, Xuanhe Zhou, Conghui He, <b>Cheng Tan*</b>"
+    venue: ""
+    paper_pdf: "https://arxiv.org/pdf/2607.04033"
+    code: "https://github.com/OpenRaiser/OmniOpt"
+    tags: 
+      - text: "Hugging Face #1 Paper of the Day"
+        url: "https://huggingface.co/papers/2607.04033"
+        variant: blue
+    selected: y
+
   - title: "The Trinity of Consistency as a Defining Principle for General World Models"
     author: "Jingxuan Wei, Siyuan Li, Yuhang Xu, Zheng Sun, Junjie Jiang, Hexuan Jin, Caijun Jia, Honghao He, Xinglong Xu, Chang Yu, Yumou Liu, Junnan Zhu, Xuanhe Zhou, Jintao Chen, Xiaobin Hu, Shancheng Pang, Bihui Yu, Ran He, Zhen Lei, Stan Z Li, Conghui He, Shuicheng Yan*, <b>Cheng Tan*</b>"
     venue: ""
