@@ -12,6 +12,13 @@ experiences:
   title: "Researcher"
   category: "work"
 
+- place: "The Chinese University of Hong Kong"
+  key: "cuhk"
+  embed_parent: "shanghai-ai-lab"
+  time: "Sep 2025 - Present"
+  subtitle: "Honorary Postdoctoral Fellow <br/> Supervisor: Prof. Pheng Ann Heng"
+  category: "work"
+
 - place: "Zhejiang University & Westlake University"
   key: "zju-westlake"
   boundary_before: y
@@ -24,8 +31,7 @@ experiences:
   key: "tencent-ai-lab"
   embed_parent: "zju-westlake"
   time: "Oct 2023 - Oct 2024"
-  title: "Research on Controllable Protein Design"
-  subtitle: "Supervisor: Dr. Fandi Wu"
+  subtitle: "Cooperation Project"
   category: "work"
 
 - place: "University of Alberta, Canada."
